@@ -112,3 +112,8 @@ Sunday             ██░░░░░░░░░░░░░░░░░░�
 &nbsp;<div align="center">
   [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/dolladollabill)
 </div>
+
+
+<img width="641" height="150" alt="image" src="https://github.com/user-attachments/assets/09a69f7c-b454-48af-96ba-a7cb16a34e84" />
+
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/c68dfc8b-ba2c-417d-bca6-0fea15ddbc3e" />
