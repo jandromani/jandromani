@@ -1,0 +1,21 @@
+{
+  "schema":"forgeos-live-v1",
+  "generated_at":"2026-08-08T22:11:00+02:00",
+  "system":{"status":"ONLINE","labs":5,"graduates":0,"dead":0,"validating":2},
+  "labs":[
+    {"lab":"Revenue Hunter","status":"VALIDATING","candidate":"PPWR supplier-evidence recovery sprint for importers/brands with incomplete packaging files","maturity":"N6","fitness":0.61,"next_gate":"Build a 25-account RPP prospect slice and require at least 3 credible paid-intent signals before N7.","last_updated":"2026-08-08 21:59 CEST","artifact_url":"","lineage":"ROOT"},
+    {"lab":"Asset Liquidator","status":"VALIDATING","candidate":"AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify merchants","maturity":"A6","fitness":0.55,"next_gate":"Identify a narrow merchant segment and require credible willingness-to-pay or independent lift evidence before A7.","last_updated":"2026-08-08 22:02 CEST","artifact_url":"https://agnosticengine.vercel.app","lineage":"ROOT"},
+    {"lab":"Frontier Forge Robotics","status":"ACTIVE","candidate":"Traceable RoboDK Station Bootstrap Compiler","maturity":"F4","fitness":0.44,"next_gate":"Execute at least 3 of 10 synthetic RFQ cases through RoboDK and measure time/actions, omissions and corrections.","last_updated":"2026-08-08 20:58 CEST","artifact_url":"","lineage":"ROOT"},
+    {"lab":"Evolution Forge","status":"ACTIVE","candidate":"LLM-agent communication frontier reset","maturity":"E1","fitness":0.12,"next_gate":"Find a mechanism not reducible to VoI/CMV gating, semantic routing, protocol selection or compression; define an external judge first.","last_updated":"2026-08-08 22:01 CEST","artifact_url":"","lineage":"ROOT"},
+    {"lab":"MetaForge","status":"ACTIVE","candidate":"PPWR Evidence-Recovery Service Copilot","maturity":"M2","fitness":0.19,"next_gate":"Require Revenue paid-intent evidence first; then test incremental specialist-time and evidence-quality gain versus service alone.","last_updated":"2026-08-08 18:58 CEST","artifact_url":"","lineage":"ROOT"}
+  ],
+  "events":[
+    {"timestamp":"2026-08-08 22:02 CEST","lab":"Asset Liquidator","type":"ADVERSARIAL_NARROWING","summary":"Generic guided-selling thesis weakened by low-cost incumbents; candidate narrowed to a fixed-fee implementation and measurement service."},
+    {"timestamp":"2026-08-08 22:01 CEST","lab":"Evolution Forge","type":"MAJOR_FALSIFICATION","summary":"VoI/CMV gating hypothesis killed by prior art; frontier reset to E1."},
+    {"timestamp":"2026-08-08 21:59 CEST","lab":"Revenue Hunter","type":"VALIDATING","summary":"PPWR recovery wedge reached N6; next gate requires paid-intent evidence from a 25-account prospect slice."},
+    {"timestamp":"2026-08-08 20:58 CEST","lab":"Frontier Forge Robotics","type":"TECHNICAL_ADVANCE","summary":"RoboDK path strengthened; F4 retained until real desktop/API execution measures time saved."},
+    {"timestamp":"2026-08-08 18:58 CEST","lab":"MetaForge","type":"CROSSOVER_REFINED","summary":"MetaForge kept PPWR evidence-recovery crossover at M2 pending paid-intent and incremental-value evidence."}
+  ],
+  "lineage":["Revenue Hunter [ROOT]","Asset Liquidator [ROOT]","Frontier Forge Robotics [ROOT]","Evolution Forge [ROOT]","MetaForge [ROOT] → PPWR Evidence-Recovery Service Copilot [M2 crossover]"],
+  "safety":"Sanitized public state only; no contacts, credentials, private Drive URLs, prompts, proprietary code or private evidence."
+}
