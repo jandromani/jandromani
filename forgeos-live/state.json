@@ -1,30 +1,30 @@
 {
   "schema": "forgeos-live-v1",
-  "generated_at": "2026-08-09T08:00:39+02:00",
+  "generated_at": "2026-08-09T09:05:46+02:00",
   "system": {"status":"STATE_LIVE_UI_STALE","labs":5,"graduates":0,"dead":0,"validating":1},
   "labs": [
-    {"lab":"Revenue Hunter","status":"ACTIVE","candidate":"DPP Registry Interop / Conformance Sprint for DPP service providers","maturity":"N3","fitness":0.34,"next_gate":"Validate willingness-to-pay and access among DPP service providers for independent DPP standards and EU Registry conformance QA; retire if official/free tooling makes independent QA non-economic.","blocker":"","last_updated":"2026-08-09 05:57 CEST","artifact_url":"","lineage":"ROOT"},
-    {"lab":"Asset Liquidator","status":"VALIDATING","candidate":"AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify merchants","maturity":"A6","fitness":0.49,"next_gate":"Remove the unavailable OpenRouter model dependency and prove the guided-selling path end-to-end; then require direct buyer willingness-to-pay or independent merchant lift before A7.","blocker":"","last_updated":"2026-08-09 03:04 CEST","artifact_url":"https://agnosticengine.vercel.app","lineage":"ROOT"},
-    {"lab":"Frontier Forge Robotics","status":"ACTIVE","candidate":"Traceable RoboDK Station Bootstrap Compiler","maturity":"F4","fitness":0.56,"next_gate":"Execute at least 3 real RoboDK runs: load actual robot assets, generate/save/reopen stations, verify frame/tool/target/program integrity, and measure setup/correction time versus manual bootstrap.","blocker":"","last_updated":"2026-08-09 06:04 CEST","artifact_url":"","lineage":"ROOT"},
-    {"lab":"Evolution Forge","status":"ACTIVE","candidate":"Partition-Invariance Repair (PIR) — metamorphic integration guard for distributed agent reasoning","maturity":"E2","fitness":0.25,"next_gate":"Map task-valid partition/order symmetries and PIR-detectable failure classes; then benchmark detection/local repair against simple multi-run consistency and full rerun.","blocker":"","last_updated":"2026-08-09 07:04 CEST","artifact_url":"","lineage":"ROOT"},
+    {"lab":"Revenue Hunter","status":"ACTIVE","candidate":"","maturity":"N2","fitness":0.20,"next_gate":"Search non-regulatory asymmetries and only promote a wedge after both paid/manual-work evidence and a clear functional coverage gap survive competitor scan.","blocker":"","last_updated":"2026-08-09 08:03 CEST","artifact_url":"","lineage":"ROOT"},
+    {"lab":"Asset Liquidator","status":"VALIDATING","candidate":"AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify merchants","maturity":"A6","fitness":0.49,"next_gate":"Repair the model dependency and prove the core guided-selling path end-to-end before willingness-to-pay/lift validation.","blocker":"","last_updated":"2026-08-09 09:02 CEST","artifact_url":"https://agnosticengine.vercel.app","lineage":"ROOT"},
+    {"lab":"Frontier Forge Robotics","status":"ACTIVE","candidate":"Traceable RoboDK Station Bootstrap Compiler","maturity":"F4","fitness":0.56,"next_gate":"Run the repeatable RoboDK station-integrity benchmark and measure setup savings; keep cycle-time truth out of scope without controller-specific evidence.","blocker":"","last_updated":"2026-08-09 08:06 CEST","artifact_url":"","lineage":"ROOT"},
+    {"lab":"Evolution Forge","status":"ACTIVE","candidate":"Partition-Invariance Repair (PIR) — task-valid metamorphic integration guard","maturity":"E2","fitness":0.27,"next_gate":"Define task-valid symmetries and benchmark oracle-free detection plus minimal replay against simple consistency checks and full rerun.","blocker":"","last_updated":"2026-08-09 08:59 CEST","artifact_url":"","lineage":"ROOT"},
     {"lab":"MetaForge","status":"ACTIVE","candidate":"Observe mature upstream outputs; previous PPWR crossover retired after parent reset","maturity":"M0","fitness":0.08,"next_gate":"Wait for strong upstream validation, then form only a crossover with incremental testable value.","blocker":"","last_updated":"2026-08-09 06:58 CEST","artifact_url":"","lineage":"ROOT"}
   ],
   "events": [
-    {"timestamp":"2026-08-09 07:04 CEST","lab":"Evolution Forge","type":"GATE_REFINED","summary":"PIR remains E2 after scope narrowing: partition/permutation is not universally semantics-preserving; next gate is a formal symmetry and failure-class map before implementation."},
-    {"timestamp":"2026-08-09 06:58 CEST","lab":"MetaForge","type":"CROSSOVER_RETIRED","summary":"The PPWR crossover was retired after its Revenue parent reset; MetaForge returned to OBSERVE/M0 rather than carrying a stale thesis."},
-    {"timestamp":"2026-08-09 06:04 CEST","lab":"Frontier Forge Robotics","type":"STATIC_COMPILER_GATE","summary":"RoboDK station bootstrap scripts passed 10/10 static syntax and required-primitive checks; real RoboDK execution remains the next gate."},
-    {"timestamp":"2026-08-09 05:57 CEST","lab":"Revenue Hunter","type":"FRONTIER_CANDIDATE","summary":"Revenue moved to an N3 DPP Registry interoperability/conformance QA hypothesis; willingness-to-pay and differentiation from official/free tooling remain unproven."},
-    {"timestamp":"2026-08-09 05:03 CEST","lab":"Asset Liquidator","type":"PRODUCTION_FALSIFICATION","summary":"AgnosticEngine production showed workflow failures caused by a withdrawn free model; A6 retained pending repair and commercial validation."},
-    {"timestamp":"2026-08-09 02:05 CEST","lab":"Revenue Hunter","type":"PARENT_RESET","summary":"The prior PPWR supplier-response thesis was retired after competitor falsification, preventing MetaForge from advancing its dependent crossover."},
-    {"timestamp":"2026-08-08 22:01 CEST","lab":"Evolution Forge","type":"PRIOR_ART_RESET","summary":"Earlier machine-communication lines were reset after prior-art falsification rather than promoted on novelty alone."},
-    {"timestamp":"2026-08-08 16:59 CEST","lab":"Asset Liquidator","type":"LEADER_PROMOTED","summary":"AgnosticEngine advanced to A6 validation."}
+    {"timestamp":"2026-08-09 09:02 CEST","lab":"Asset Liquidator","type":"PRODUCTION_FALSIFICATION","summary":"AgnosticEngine still has an active model-dependency failure in production; A6 retained pending repair and end-to-end proof."},
+    {"timestamp":"2026-08-09 08:59 CEST","lab":"Evolution Forge","type":"GATE_REFINED","summary":"PIR narrowed to task-valid metamorphic symmetries; efficacy remains unproven and requires oracle-free detection plus minimal-replay benchmarking."},
+    {"timestamp":"2026-08-09 08:06 CEST","lab":"Frontier Forge Robotics","type":"AUTOMATION_GATE","summary":"RoboDK headless/background execution and Python API support strengthen the path to a repeatable station-integrity benchmark."},
+    {"timestamp":"2026-08-09 08:03 CEST","lab":"Revenue Hunter","type":"FRONTIER_RESET","summary":"DPP conformance and unsold-goods evidence wedges were rejected after official/free tooling and direct competitors covered the proposed functions; Revenue returned to N2."},
+    {"timestamp":"2026-08-09 06:58 CEST","lab":"MetaForge","type":"CROSSOVER_RETIRED","summary":"The prior PPWR crossover was retired after its Revenue parent reset; MetaForge remains in OBSERVE/M0."},
+    {"timestamp":"2026-08-09 06:04 CEST","lab":"Frontier Forge Robotics","type":"STATIC_COMPILER_GATE","summary":"RoboDK station bootstrap scripts passed static checks; real execution remains required."},
+    {"timestamp":"2026-08-09 05:03 CEST","lab":"Asset Liquidator","type":"PRODUCTION_FALSIFICATION","summary":"AgnosticEngine workflow failures exposed a withdrawn model dependency and prevented promotion beyond A6."},
+    {"timestamp":"2026-08-08 22:01 CEST","lab":"Evolution Forge","type":"PRIOR_ART_RESET","summary":"Earlier machine-communication lines were reset after prior-art falsification rather than promoted on novelty alone."}
   ],
   "lineage": [
-    "Revenue Hunter [ROOT] → PPWR recovery [N6] → reset → CBAM hypothesis [N3] → DPP Registry conformance hypothesis [N3]",
+    "Revenue Hunter [ROOT] → PPWR recovery [N6] → reset → DPP/unsold-goods screens rejected → non-regulatory search [N2]",
     "Asset Liquidator [ROOT] → AgnosticEngine guided-selling sprint [A6] → production dependency repair gate",
-    "Frontier Forge Robotics [ROOT] → Traceable RoboDK Station Bootstrap Compiler [F4] → static compiler gate passed",
-    "Evolution Forge [ROOT] → prior communication/reducer lines reset → Partition-Invariance Repair [E2] → symmetry-scope gate refined",
-    "MetaForge [ROOT] → PPWR Evidence-Recovery Service Copilot [M2] → retired after parent reset → OBSERVE [M0]"
+    "Frontier Forge Robotics [ROOT] → Traceable RoboDK Station Bootstrap Compiler [F4] → headless execution benchmark gate",
+    "Evolution Forge [ROOT] → prior communication lines reset → Partition-Invariance Repair [E2] → task-valid symmetry benchmark gate",
+    "MetaForge [ROOT] → PPWR crossover [M2] → retired after parent reset → OBSERVE [M0]"
   ],
   "safety": "Sanitized public state only; no contacts, credentials, private Drive URLs, prompts, proprietary code, private financials or sensitive evidence."
 }
