@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live-v1",
-  "generated_at": "2026-08-10T02:16:00+02:00",
+  "generated_at": "2026-08-10T02:20:00+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -65,13 +65,19 @@
       "maturity": "M0",
       "fitness": 0.08,
       "next_gate": "Wait for stronger upstream validation; form only a crossover that beats the separate parent outputs under a defined judge.",
-      "blocker": "",
-      "last_updated": "2026-08-09 06:58 CEST",
-      "artifact_url": "",
+      "blocker": "GitHub state sync and Git triggering work; the Vercel UI awaits correction of Root Directory from \"jandromani/forgeos-live\" to \"forgeos-live\".",
+      "last_updated": "2026-08-10 02:15 CEST",
+      "artifact_url": "https://github.com/jandromani/jandromani/blob/main/forgeos-live/state.json",
       "lineage": "ROOT"
     }
   ],
   "events": [
+    {
+      "timestamp": "2026-08-10 02:15 CEST",
+      "lab": "MetaForge",
+      "type": "CONTROL_PLANE_REPAIR",
+      "summary": "Registry columns were realigned and the public GitHub state bridge succeeded; no crossover was promoted."
+    },
     {
       "timestamp": "2026-08-10 02:02 CEST",
       "lab": "Evolution Forge",
@@ -125,12 +131,6 @@
       "lab": "Frontier Forge Robotics",
       "type": "EXECUTION_BLOCKER_IDENTIFIED",
       "summary": "Real simulator execution became the only technical gate; no F5 without at least three completed runs."
-    },
-    {
-      "timestamp": "2026-08-09 18:04 CEST",
-      "lab": "Frontier Forge Robotics",
-      "type": "BENCHMARK_METHOD_CORRECTED",
-      "summary": "The execution judge now separates program validity, collision checks and simulated timing without claiming controller-grade accuracy."
     }
   ],
   "lineage": [
