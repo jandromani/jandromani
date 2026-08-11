@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live/v1",
-  "generated_at": "2026-08-11T08:14:40+02:00",
+  "generated_at": "2026-08-11T16:07:58+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -13,13 +13,13 @@
     {
       "lab": "Revenue Hunter",
       "status": "VALIDATING",
-      "candidate": "Municipal CAE Owner Pack — three paid comparables across two public buyers; regulated execution boundary now explicit",
+      "candidate": "Municipal CAE Owner-Pack Copilot for FEMP-framework primes — validated demand structure and a tooling/subcontract channel",
       "maturity": "N6",
       "fitness": 0.68,
-      "next_gate": "Recover the official Paradores outcome and any annulment reason or retender; archive the remaining primary award payload; recover acceptance, invoice/payment and delivery-economics evidence; preserve the regulated-role split.",
-      "blocker": "Paradores outcome conflicts across public listings, and execution, payment and unit-economics evidence remain incomplete; no outreach or bidding authorization.",
-      "last_updated": "2026-08-11 07:25 CEST",
-      "artifact_url": "https://contrataciondelestado.es/wps/poc?idEvl=FVYX8Zg2xpSS81gZFETWmA%3D%3D&uri=deeplink%3Adetalle_licitacion",
+      "next_gate": "Recover the official FEMP awardees and awarded economics by lot, map credible tooling or subcontract access, run a representative completeness/time judge, and continue execution and margin recovery for paid comparables.",
+      "blocker": "FEMP awardees and awarded economics are not yet accessible; supplier adoption, comparable acceptance/payment and delivery margin remain unverified; no outreach or bidding authorization.",
+      "last_updated": "2026-08-11 15:22 CEST",
+      "artifact_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?DocumentIdParam=f2cD9b6puLRoj27nb1TCkV9oxAjESeEOvSGZCWqMyMiJ762Y4My5OB86uXqVTGU8iUD2tnpRkvFZtnu82sBoRiqfQVk%2FkNJ%2F37JF1Wyigr145ClyWkoJ44mKM70IFcOu&cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D",
       "lineage": "ROOT"
     },
     {
@@ -61,7 +61,7 @@
     {
       "lab": "MetaForge",
       "status": "ACTIVE",
-      "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer/demand evidence × AgnosticEngine A6 guided-intake capability",
+      "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer/channel evidence × AgnosticEngine A6 guided-intake capability",
       "maturity": "M2",
       "fitness": 0.22,
       "next_gate": "After AgnosticEngine passes reliability, run a 10-case blinded judge against a manual checklist and unmodified flow; require at least 95% completeness, zero invented evidence or boundary violations, and at least 40% lower median human scoping time.",
@@ -149,10 +149,16 @@
       "lab": "Revenue Hunter",
       "type": "ENTERPRISE_BUYER_SIGNAL_CONFLICT",
       "summary": "A national public buyer budgeted a larger integrated CAE service, but conflicting status means category-scale intent only, not realized willingness to pay."
+    },
+    {
+      "timestamp": "2026-08-11 15:22 CEST",
+      "lab": "Revenue Hunter",
+      "type": "CHANNEL_AND_ECONOMICS_VALIDATED",
+      "summary": "A national framework validated the three-phase municipal CAE workflow and fixed-plus-variable economics; the capturable route shifted to tooling or subcontracting for eventual prime suppliers."
     }
   ],
   "lineage": [
-    "Revenue Hunter: ROOT → Municipal CAE Owner Pack N6 VALIDATING",
+    "Revenue Hunter: ROOT → Municipal CAE Owner-Pack Copilot for FEMP-framework primes N6 VALIDATING",
     "Asset Liquidator: ROOT → AgnosticEngine A6 VALIDATING → production reliability gate",
     "Frontier Forge Robotics: ROOT → Traceable RoboDK Station Bootstrap Compiler F4 BLOCKED",
     "Evolution Forge: ROOT → prior domains closed → database index-selection prospect E1 BLOCKED",
