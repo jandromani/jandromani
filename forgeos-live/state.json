@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live-v1",
-  "generated_at": "2026-08-10T02:20:00+02:00",
+  "generated_at": "2026-08-11T02:09:33+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -13,12 +13,12 @@
     {
       "lab": "Revenue Hunter",
       "status": "ACTIVE",
-      "candidate": "Pre-CAE Public Capex Radar for Sujetos Delegados",
+      "candidate": "Municipal CAE Owner Pack — first formalized workflow outcome; paid assistance comparable still missing",
       "maturity": "N5",
-      "fitness": 0.68,
-      "next_gate": "Benchmark 30–50 historical public-capex precursor cases for lead time, precision and incumbent capture, then test paid intent with 10–15 active CAE intermediaries.",
-      "blocker": "Predictive edge, unserved buyer access and willingness to pay remain unproven.",
-      "last_updated": "2026-08-10 01:27 CEST",
+      "fitness": 0.56,
+      "next_gate": "Recover the official assistance awards behind Tordoia and Alcobendas, including supplier, date, amount and habilitation clauses; add five more classified cases. Promote only after three P1+ assistance awards and at least one P2/P3 formalized or executed Owner Pack assistance contract. Do not count CAE-rights sale proceeds as service revenue.",
+      "blocker": "No runtime blocker. Commercial validation blocker: zero strict paid assistance comparables with complete awardee/date/amount; Tordoia assistance fee and official service contract missing; Alcobendas official award detail missing; habilitation boundary and real margin unvalidated. No authorization for outreach or bidding.",
+      "last_updated": "2026-08-10 14:25 CEST",
       "artifact_url": "",
       "lineage": "ROOT"
     },
@@ -28,8 +28,8 @@
       "candidate": "AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify merchants",
       "maturity": "A6",
       "fitness": 0.55,
-      "next_gate": "Repair or parameterize the withdrawn editorial model, verify the commercial path end-to-end, then test paid-pilot intent with 5–10 qualified merchants.",
-      "blocker": "The core interactive path is not independently verified and the editorial model dependency remains unrepaired.",
+      "next_gate": "Replace or parameterize the withdrawn model and isolate the editorial workflow; verify chat → recommendation → product click → add-to-cart → analytics end-to-end; then test paid-pilot intent with 5-10 qualified merchants.",
+      "blocker": "Interactive core path remains unverified; browser access to the domain is blocked in this session and the editorial model dependency remains unrepaired.",
       "last_updated": "2026-08-10 01:46 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
       "lineage": "ROOT"
@@ -40,8 +40,8 @@
       "candidate": "Traceable RoboDK Station Bootstrap Compiler",
       "maturity": "F4",
       "fitness": 0.62,
-      "next_gate": "Execute at least three generated RoboDK stations and verify save/reopen integrity, program and collision checks, simulated time, export and setup-time savings.",
-      "blocker": "No accessible RoboDK execution environment, container engine or usable license/trial is available in the current runtime.",
+      "next_gate": "Install/launch RoboDK Desktop trial, then execute >=3 generated stations headlessly: save/reopen RDK, program.Update(valid_ratio) + collision checks, normal-simulation SimulationTime, export shareable simulation, and measure compiler-vs-manual setup time/omissions.",
+      "blocker": "Real RoboDK execution still blocked in this runtime, but desktop form is not the only path: RoboDK maintains an official linux/amd64 Docker image for API/robot-driver/cloud use, updated in Aug 2026. This runtime has neither Docker nor Podman, and the official container documentation expects an RDK_LIC for licensed use. F5 still requires >=3 real simulator executions.",
       "last_updated": "2026-08-10 00:57 CEST",
       "artifact_url": "",
       "lineage": "ROOT"
@@ -49,12 +49,12 @@
     {
       "lab": "Evolution Forge",
       "status": "ACTIVE",
-      "candidate": "",
-      "maturity": "E1",
-      "fitness": 0.09,
-      "next_gate": "Find a computational property with an exact judge beyond action-state projection, semantic declassification, task-context firewalls, formal schema enforcement and existing latent/KV exchange.",
-      "blocker": "",
-      "last_updated": "2026-08-10 02:02 CEST",
+      "candidate": "No current leader — budget-conditioned historical failure scoring killed on held-out data",
+      "maturity": "E2",
+      "fitness": 0.11,
+      "next_gate": "Explain project heterogeneity and preregister one mechanism driven by a causal feature available before each build; otherwise close budget-aware CI prioritization instead of tuning another post-hoc switch.",
+      "blocker": "No runtime blocker. Scientific blocker: no method generalizes jointly on recall and TTFF across projects and budgets. The post-hoc switch failed held-out replication; no candidate is admitted.",
+      "last_updated": "2026-08-10 13:57 CEST",
       "artifact_url": "",
       "lineage": "ROOT"
     },
@@ -65,7 +65,7 @@
       "maturity": "M0",
       "fitness": 0.08,
       "next_gate": "Wait for stronger upstream validation; form only a crossover that beats the separate parent outputs under a defined judge.",
-      "blocker": "GitHub state sync and Git triggering work; the Vercel UI awaits correction of Root Directory from \"jandromani/forgeos-live\" to \"forgeos-live\".",
+      "blocker": "Public state bus is current; the legacy Vercel UI remains stale pending a writable deployment surface.",
       "last_updated": "2026-08-10 02:15 CEST",
       "artifact_url": "https://github.com/jandromani/jandromani/blob/main/forgeos-live/state.json",
       "lineage": "ROOT"
@@ -73,71 +73,101 @@
   ],
   "events": [
     {
-      "timestamp": "2026-08-10 02:15 CEST",
-      "lab": "MetaForge",
-      "type": "CONTROL_PLANE_REPAIR",
-      "summary": "Registry columns were realigned and the public GitHub state bridge succeeded; no crossover was promoted."
-    },
-    {
-      "timestamp": "2026-08-10 02:02 CEST",
+      "timestamp": "2026-08-10 07:05 CEST",
       "lab": "Evolution Forge",
       "type": "PRIOR_ART_KILL",
-      "summary": "Action-state compression, strategic silence and minimum-disclosure communication collided with direct prior art; no implementation was justified."
+      "summary": "Distributed CSP nogood exchange, distributed belief revision and mature MUS/MCS tooling already occupy the candidate's object and guarantees; no implementation justified."
     },
     {
-      "timestamp": "2026-08-10 01:46 CEST",
-      "lab": "Asset Liquidator",
-      "type": "FALSIFICATION_CORRECTION",
-      "summary": "AgnosticEngine production loads; failures are isolated to an editorial workflow, while the core commercial path and paid intent remain unverified."
-    },
-    {
-      "timestamp": "2026-08-10 01:27 CEST",
+      "timestamp": "2026-08-10 07:26 CEST",
       "lab": "Revenue Hunter",
-      "type": "EVIDENCE_UPDATE",
-      "summary": "Paid public discovery and provincial aggregation validated demand but also increased institutional-substitution risk."
+      "type": "BUYER_PROXY_GATE_PASS",
+      "summary": "Twelve accredited delegated subjects were mapped; five publish direct early-stage, scanning or public-sector opportunity signals. Internal origination is the main substitute, so the next gate is a traceable three-case blind sample; no outreach occurred."
     },
     {
-      "timestamp": "2026-08-10 00:57 CEST",
-      "lab": "Frontier Forge Robotics",
-      "type": "STATUS_CHANGE",
-      "summary": "Lifecycle moved to BLOCKED until at least three real RoboDK station executions are completed."
-    },
-    {
-      "timestamp": "2026-08-09 22:58 CEST",
+      "timestamp": "2026-08-10 08:15 CEST",
       "lab": "Evolution Forge",
-      "type": "FALSIFICATION",
-      "summary": "The prospective-trigger compiler was killed before implementation after prior-art collision; the frontier reset to E1."
+      "type": "PRIOR_ART_KILL_AND_SATURATION_AUDIT",
+      "summary": "Token-budgeted truthful disclosure was killed: incentive-compatible information acquisition, truthful distributed optimisation, peer prediction, data-driven VCG and RegretNet already occupy the object. The audit found repeated message-wrapper mutations; next gate is a saturation decision and possible domain pivot."
     },
     {
-      "timestamp": "2026-08-09 20:58 CEST",
-      "lab": "Frontier Forge Robotics",
-      "type": "EXECUTION_PATH_REFINED",
-      "summary": "An official container route exists, but real simulator execution remains unavailable in the current runtime."
-    },
-    {
-      "timestamp": "2026-08-09 20:03 CEST",
-      "lab": "Evolution Forge",
-      "type": "MAJOR_PRIOR_ART_FALSIFICATION",
-      "summary": "Partition-invariance repair was killed by earlier metamorphic-testing prior art."
-    },
-    {
-      "timestamp": "2026-08-09 19:01 CEST",
+      "timestamp": "2026-08-10 08:24 CEST",
       "lab": "Revenue Hunter",
-      "type": "HISTORICAL_PRECURSOR_VALIDATED",
-      "summary": "A first public-capex precursor chain was found before later CAE monetization; broader benchmarking remains required."
+      "type": "MAJOR_FALSIFICATION_PIVOT",
+      "summary": "Blind sample passed 1/3: incumbent route saturation and missing title/savings data falsified the buyer-side radar; pivoted to municipality-side CAE asset recovery."
     },
     {
-      "timestamp": "2026-08-09 18:55 CEST",
-      "lab": "Frontier Forge Robotics",
-      "type": "EXECUTION_BLOCKER_IDENTIFIED",
-      "summary": "Real simulator execution became the only technical gate; no F5 without at least three completed runs."
+      "timestamp": "2026-08-10 08:55 CEST",
+      "lab": "Evolution Forge",
+      "type": "MAJOR_FALSIFICATION_BRANCH_CLOSED",
+      "summary": "Final substrate screen killed hash-partitioned search exchange, event-triggered transitions and executable FSM messages; the M2M branch closed as saturated, while the lab remains active for a new automatically judged domain."
+    },
+    {
+      "timestamp": "2026-08-10 09:41 CEST",
+      "lab": "Revenue Hunter",
+      "type": "PRELIMINARY_OWNER_GATE_PASSED",
+      "summary": "Petrer passed the preliminary owner-side gate: official guidance preserves municipal title despite aid/credit, TER180 applies and inventory plus patrimonial disposal is the route; exact savings and owner WTP remain pending."
+    },
+    {
+      "timestamp": "2026-08-10 10:07 CEST",
+      "lab": "Evolution Forge",
+      "type": "DOMAIN_ADMITTED_JUDGE_READY",
+      "summary": "Three-domain screen admitted budget-aware CI test prioritization; an original judge passed its sanity check. Entity matching failed provenance and fuzzing failed bounded-compute. No public benchmark gain yet."
+    },
+    {
+      "timestamp": "2026-08-10 10:29 CEST",
+      "lab": "Revenue Hunter",
+      "type": "WINNING_OFFER_RECOVERED",
+      "summary": "Petrer winning offer recovered: SICE €1.080.113,35 ex VAT and 98,85 points. The PCAP requires an energy balance and exact powers in the technical annex; TER180, formalized contract and owner WTP remain pending."
+    },
+    {
+      "timestamp": "2026-08-10 11:04 CEST",
+      "lab": "Evolution Forge",
+      "type": "MAJOR_FALSIFICATION_BENCHMARK_REPLACED",
+      "summary": "FAST was falsified as a budget-aware arena: it lacks per-test durations/APFDc, and repository order lost to random on Chart/Lang/Time (0.491 vs 0.526 macro APFD). Coleman-compatible historical CI datasets replace it; no winner yet."
+    },
+    {
+      "timestamp": "2026-08-10 11:22 CEST",
+      "lab": "Revenue Hunter",
+      "type": "CONCRETE_BUYER_SIGNAL_VALIDATING",
+      "summary": "Guadalajara budgeted €11,475 for CAE analysis, municipal inventory and sale preparation; Badajoz budgeted €12,850 for 45 municipalities/779 MWh. Public procurement validates buyer and price, while sujeto-delegado requirements narrow the offer to owner-side work."
+    },
+    {
+      "timestamp": "2026-08-10 11:58 CEST",
+      "lab": "Evolution Forge",
+      "type": "PROVISIONAL_METHOD_LEADER_SINGLE_PROJECT",
+      "summary": "Chronological Deeplearning4j benchmark found a provisional leader: at 50% budget recall was 0.877 vs 0.832 repository order and 0.837 failure-per-second; elapsed-time TTFF was 0.073 vs 0.091 next-best. One project only; cross-project replication pending."
+    },
+    {
+      "timestamp": "2026-08-10 12:27 CEST",
+      "lab": "Revenue Hunter",
+      "type": "MAJOR_FALSIFICATION_DESERTED_COMPARABLE",
+      "summary": "Badajoz 287/25 was officially declared deserted on 10 Jun 2025 with no awardee; Guadalajara remains pending in the accessible listing. Budgeted tenders no longer count as paid WTP. Candidate demoted to ACTIVE/N5 pending three actual awards/executions."
+    },
+    {
+      "timestamp": "2026-08-10 13:07 CEST",
+      "lab": "Evolution Forge",
+      "type": "MAJOR_FALSIFICATION_BUDGET_DEPENDENT_LEADER",
+      "summary": "Three-project leakage-safe replication killed recency-weighting as a budget-invariant leader: it lost recall to ordinary failure-per-second on two projects at 25%, but won on two at 50%. A preregistered budget switch is HOLD pending held-out tests and native Coleman."
+    },
+    {
+      "timestamp": "2026-08-10 13:57 CEST",
+      "lab": "Evolution Forge",
+      "type": "MAJOR_FALSIFICATION_HELDOUT_KILL",
+      "summary": "Held-out IOF/ROL, Paint Control and LexisNexis killed the preregistered budget switch: the joint median recall and TTFF gate failed at 10%, 25% and 50%; no leader remains."
+    },
+    {
+      "timestamp": "2026-08-10 14:25 CEST",
+      "lab": "Revenue Hunter",
+      "type": "FORMALIZED_WORKFLOW_OUTCOME",
+      "summary": "Tordoia formalized a CAE-rights auction with Naturgy Iberia, five bidders and EUR 19,064.97 municipal income; a public case study connects specialist owner-side preparation to the outcome. Alcobendas adds an awarded P1 lead, but strict paid-assistance comparables remain 0/3."
     }
   ],
   "lineage": [
-    "Revenue Hunter ROOT → Pre-CAE Public Capex Radar N5",
+    "Revenue Hunter ROOT → Pre-CAE radar falsified → Municipal CAE Owner Pack N5",
     "Asset Liquidator ROOT → AgnosticEngine A6 VALIDATING",
     "Frontier Forge Robotics ROOT → Traceable RoboDK Station Bootstrap Compiler F4 BLOCKED",
-    "Evolution Forge ROOT → repeated prior-art falsifications → no leader E1",
+    "Evolution Forge ROOT → M2M branch closed → CI arena held-out kill → no leader E2",
     "MetaForge ROOT → previous PPWR crossover retired → observe M0",
     "No active forks"
   ],
