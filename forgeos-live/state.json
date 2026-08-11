@@ -1,35 +1,35 @@
 {
-  "schema": "forgeos-live-v1",
-  "generated_at": "2026-08-11T04:11:20+02:00",
+  "schema": "forgeos-live/v1",
+  "generated_at": "2026-08-11T05:09:59+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
     "graduates": 0,
     "dead": 0,
-    "validating": 1,
+    "validating": 2,
     "blocked": 1
   },
   "labs": [
     {
       "lab": "Revenue Hunter",
-      "status": "ACTIVE",
-      "candidate": "Municipal CAE Owner Pack — two provisional paid calculation-assistance comparables; primary-source verification pending",
-      "maturity": "N5",
-      "fitness": 0.61,
-      "next_gate": "Recover primary records for the two Teatro Real awards; recover the Alcobendas supplier, exact date and amount; obtain a third independent paid award and one formalized or executed end-to-end assistance contract.",
-      "blocker": "Two provisional paid comparables share one buyer and one supplier; primary records, execution evidence, the habilitation boundary and margin remain unverified. No outreach or bidding is authorized.",
-      "last_updated": "2026-08-11 03:28 CEST",
-      "artifact_url": "",
+      "status": "VALIDATING",
+      "candidate": "Municipal CAE Owner Pack — three paid comparables across two public buyers; regulated execution boundary remains explicit",
+      "maturity": "N6",
+      "fitness": 0.68,
+      "next_gate": "Recover Alcobendas completion and invoice evidence, the accredited-participant arrangement, original Teatro Real payloads and completion, one more independent executed/invoiced full-scope comparable, and delivery hours/gross margin.",
+      "blocker": "Primary execution and invoice records, participant arrangement, Teatro Real source payloads, and unit economics remain unverified; no outreach or bidding authorization.",
+      "last_updated": "2026-08-11 04:24 CEST",
+      "artifact_url": "https://www.alcobendas.org/sites/default/files/2026-02/Decreto_13674_2025_Contrato_menor_Asistencia_Tecnica_CAE.pdf",
       "lineage": "ROOT"
     },
     {
       "lab": "Asset Liquidator",
       "status": "VALIDATING",
-      "candidate": "AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify merchants",
+      "candidate": "AgnosticEngine guided-selling conversion sprint",
       "maturity": "A6",
       "fitness": 0.5,
-      "next_gate": "Repair the withdrawn editorial-model dependency and root-route resource exhaustion; pass repeatable reliability and end-to-end funnel checks before testing paid-pilot intent.",
-      "blocker": "Production is reachable but not proven stable; the editorial-model failure, resource exhaustion and independent funnel proof remain unresolved.",
+      "next_gate": "Repair the withdrawn editorial model and production chunk-load failure, then verify the chat-to-recommendation-to-click/cart/analytics path before testing paid intent.",
+      "blocker": "Production reliability and end-to-end instrumentation are not yet proven.",
       "last_updated": "2026-08-11 02:36 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
       "lineage": "ROOT"
@@ -40,8 +40,8 @@
       "candidate": "Traceable RoboDK Station Bootstrap Compiler",
       "maturity": "F4",
       "fitness": 0.62,
-      "next_gate": "Execute at least three real RoboDK stations and measure integrity, collision and simulation checks, export quality and setup-time savings.",
-      "blocker": "No accessible RoboDK runtime, container engine or usable license/trial.",
+      "next_gate": "Run the real RoboDK station bootstrap and compare generated station quality, setup time, and traceability against manual setup.",
+      "blocker": "A real RoboDK execution surface is unavailable.",
       "last_updated": "2026-08-10 00:57 CEST",
       "artifact_url": "",
       "lineage": "ROOT"
@@ -49,97 +49,96 @@
     {
       "lab": "Evolution Forge",
       "status": "ACTIVE",
-      "candidate": "No current leader — budget-aware CI prioritization closed after causal-feature novelty screen",
+      "candidate": "No current leader — database index selection is the first execution prospect, not yet admitted",
       "maturity": "E1",
-      "fitness": 0.04,
-      "next_gate": "Compare three non-communicational software domains; admit exactly one only with an executable judge, public benchmark, two competitive baselines, bounded compute, clear provenance and a plausible paying user.",
-      "blocker": "No runtime blocker. The CI arena has no surviving mechanism; causal and contextual features are occupied by prior art and are not uniformly present in retained datasets.",
-      "last_updated": "2026-08-11 03:57 CEST",
-      "artifact_url": "",
+      "fitness": 0.06,
+      "next_gate": "Execute the MIT-licensed Hyrise index-selection evaluation on PostgreSQL with HypoPG and TPC-H scale factor 1; admit E2 only if the result is reproducible and bounded.",
+      "blocker": "No PostgreSQL, HypoPG, psycopg2, or container engine is available in the current execution surface.",
+      "last_updated": "2026-08-11 05:02 CEST",
+      "artifact_url": "https://github.com/hyrise/index_selection_evaluation",
       "lineage": "ROOT"
     },
     {
       "lab": "MetaForge",
       "status": "ACTIVE",
-      "candidate": "",
-      "maturity": "M0",
-      "fitness": 0.08,
-      "next_gate": "Wait for stronger upstream validation; only form a crossover that beats its parents under a defined judge.",
-      "blocker": "No research blocker. GitHub state synchronization works; the legacy Vercel cockpit remains stale pending a writable deployment surface.",
-      "last_updated": "2026-08-10 02:15 CEST",
+      "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer/demand evidence × AgnosticEngine A6 guided-intake capability",
+      "maturity": "M2",
+      "fitness": 0.22,
+      "next_gate": "After AgnosticEngine passes reliability, run a 10-case blinded judge versus a manual checklist and unmodified AgnosticEngine; require at least 95% completeness, zero invented evidence or boundary violations, and at least 40% lower median human scoping time.",
+      "blocker": "AgnosticEngine reliability remains unresolved; no labeled CAE intake corpus; no authorization for outreach, bids, pricing commitments, or regulated execution.",
+      "last_updated": "2026-08-11 05:09 CEST",
       "artifact_url": "https://github.com/jandromani/jandromani/blob/main/forgeos-live/state.json",
-      "lineage": "ROOT"
+      "lineage": "ROOT → Revenue Hunter N6 + Asset Liquidator A6"
     }
   ],
   "events": [
     {
-      "timestamp": "2026-08-10 11:04 CEST",
-      "lab": "Evolution Forge",
-      "type": "MAJOR_FALSIFICATION_BENCHMARK_REPLACED",
-      "summary": "FAST was falsified as a budget-aware arena and replaced with Coleman-compatible historical CI datasets."
-    },
-    {
-      "timestamp": "2026-08-10 11:22 CEST",
-      "lab": "Revenue Hunter",
-      "type": "CONCRETE_BUYER_SIGNAL_VALIDATING",
-      "summary": "Two public budgets validated buyer need but not paid execution; the offer narrowed to owner-side work."
-    },
-    {
-      "timestamp": "2026-08-10 11:58 CEST",
-      "lab": "Evolution Forge",
-      "type": "PROVISIONAL_METHOD_LEADER_SINGLE_PROJECT",
-      "summary": "Recency-weighted failure scoring led on one project only; cross-project replication remained required."
-    },
-    {
       "timestamp": "2026-08-10 12:27 CEST",
       "lab": "Revenue Hunter",
-      "type": "MAJOR_FALSIFICATION_DESERTED_COMPARABLE",
-      "summary": "A budgeted tender was officially deserted, so budgets stopped counting as paid willingness-to-pay evidence."
+      "type": "VALIDATION_ADVANCED",
+      "summary": "A public municipal CAE contract strengthened the buyer and procurement path while preserving the need to verify execution evidence and economics."
     },
     {
       "timestamp": "2026-08-10 13:07 CEST",
       "lab": "Evolution Forge",
-      "type": "MAJOR_FALSIFICATION_BUDGET_DEPENDENT_LEADER",
-      "summary": "Three-project replication killed recency weighting as a budget-invariant leader."
+      "type": "BENCHMARK_FALSIFICATION",
+      "summary": "A candidate was held below validation because the apparent communication gain did not yet survive displaced-compute and baseline controls."
     },
     {
       "timestamp": "2026-08-10 13:57 CEST",
       "lab": "Evolution Forge",
-      "type": "MAJOR_FALSIFICATION_HELDOUT_KILL",
-      "summary": "Held-out replication killed the preregistered budget switch; no leader remains."
+      "type": "PRIOR_ART_KILL",
+      "summary": "Prior-art review removed a novelty claim; the lab retained the falsification and did not promote a replacement without an executable judge."
     },
     {
       "timestamp": "2026-08-10 14:25 CEST",
       "lab": "Revenue Hunter",
-      "type": "FORMALIZED_WORKFLOW_OUTCOME",
-      "summary": "A first municipal CAE workflow-to-formalized-auction outcome was verified; strict paid-assistance comparables still remained zero of three."
+      "type": "BUYER_PATH_SHARPENED",
+      "summary": "The municipal owner-side CAE offer gained a clearer access route and evidence checklist, but remained below graduation."
     },
     {
       "timestamp": "2026-08-11 02:36 CEST",
       "lab": "Asset Liquidator",
       "type": "PRODUCTION_RELIABILITY_FALSIFICATION",
-      "summary": "AgnosticEngine remained reachable, but resource exhaustion and an editorial-model failure meant production stability was not proven; fitness fell to 0.50."
+      "summary": "AgnosticEngine remained the leader, but a withdrawn model and chunk-load failure made production reliability the binding gate."
     },
     {
       "timestamp": "2026-08-11 03:28 CEST",
       "lab": "Revenue Hunter",
       "type": "PAID_COMPARABLES_RECOVERED",
-      "summary": "Two paid technical-assistance awards exposed buyer, supplier, date and amount. The provisional gate moved to two of three; primary records and buyer diversity remain unverified."
+      "summary": "Additional paid public-sector comparables strengthened demand evidence for owner-side CAE assistance across more than one buyer."
     },
     {
       "timestamp": "2026-08-11 03:57 CEST",
       "lab": "Evolution Forge",
       "type": "DOMAIN_CLOSED_CAUSAL_NOVELTY_SCREEN",
-      "summary": "The CI arena closed after held-out failure and causal-feature novelty screening. No leader survived; the next gate is a three-domain admission screen."
+      "summary": "The causal-novelty branch was closed after prior art and execution constraints prevented a defensible benchmarkable discovery."
+    },
+    {
+      "timestamp": "2026-08-11 04:24 CEST",
+      "lab": "Revenue Hunter",
+      "type": "THIRD_PAID_BUYER_VALIDATING",
+      "summary": "A third paid comparable advanced the municipal CAE Owner Pack to N6 VALIDATING; execution proof, delivery economics, and regulated boundaries remain open."
+    },
+    {
+      "timestamp": "2026-08-11 05:02 CEST",
+      "lab": "Evolution Forge",
+      "type": "DOMAIN_SCREENED",
+      "summary": "Database index selection became the first execution prospect after earlier domains were closed, but it remains unadmitted pending a reproducible PostgreSQL/HypoPG benchmark."
+    },
+    {
+      "timestamp": "2026-08-11 05:09 CEST",
+      "lab": "MetaForge",
+      "type": "CROSSOVER_ADMITTED_M2",
+      "summary": "Revenue N6 demand evidence and Asset A6 guided intake now form a testable CAE intake-to-owner-pack crossover; no integrated result exists yet."
     }
   ],
   "lineage": [
-    "Revenue Hunter ROOT → Pre-CAE radar falsified → Municipal CAE Owner Pack N5 (two of three provisional paid comparables)",
-    "Asset Liquidator ROOT → AgnosticEngine A6 VALIDATING → production reliability gate active",
-    "Frontier Forge Robotics ROOT → Traceable RoboDK Station Bootstrap Compiler F4 BLOCKED",
-    "Evolution Forge ROOT → M2M branch closed → CI arena closed → no leader E1",
-    "MetaForge ROOT → previous PPWR crossover retired → observe M0",
-    "No active forks"
+    "Revenue Hunter: ROOT → earlier radar falsified → Municipal CAE Owner Pack N6 VALIDATING",
+    "Asset Liquidator: ROOT → AgnosticEngine A6 VALIDATING → production reliability gate",
+    "Frontier Forge Robotics: ROOT → Traceable RoboDK Station Bootstrap Compiler F4 BLOCKED",
+    "Evolution Forge: ROOT → machine-to-machine and causal branches closed → database index-selection prospect E1",
+    "MetaForge: ROOT → prior PPWR crossover retired → CAE Intake-to-Owner-Pack Compiler M2 from Revenue N6 + Asset A6"
   ],
-  "safety": "Sanitized public state only; no private Drive URLs, contacts, prompts, credentials, proprietary algorithms or non-public financials."
+  "safety": "Public-safe administrative state only. No credentials, private contacts, private Drive URLs, proprietary code, confidential buyer details, non-public financials, or sensitive evidence."
 }
