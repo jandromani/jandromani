@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live/v1",
-  "generated_at": "2026-08-11T05:09:59+02:00",
+  "generated_at": "2026-08-11T06:06:32+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -16,10 +16,10 @@
       "candidate": "Municipal CAE Owner Pack — three paid comparables across two public buyers; regulated execution boundary remains explicit",
       "maturity": "N6",
       "fitness": 0.68,
-      "next_gate": "Recover Alcobendas completion and invoice evidence, the accredited-participant arrangement, original Teatro Real payloads and completion, one more independent executed/invoiced full-scope comparable, and delivery hours/gross margin.",
-      "blocker": "Primary execution and invoice records, participant arrangement, Teatro Real source payloads, and unit economics remain unverified; no outreach or bidding authorization.",
-      "last_updated": "2026-08-11 04:24 CEST",
-      "artifact_url": "https://www.alcobendas.org/sites/default/files/2026-02/Decreto_13674_2025_Contrato_menor_Asistencia_Tecnica_CAE.pdf",
+      "next_gate": "Recover primary Teatro Real payloads and acceptance/invoice/payment evidence, Alcobendas completion/invoice and accredited-participant evidence, another independent executed full-scope comparable, and measured delivery economics.",
+      "blocker": "Primary execution, invoice/payment and unit-economics evidence remain incomplete; no outreach or bidding authorization.",
+      "last_updated": "2026-08-11 05:25 CEST",
+      "artifact_url": "https://contrataciondelestado.es/wps/poc?idEvl=peDmNPg%2FYcokJPJS%2BPS9vg%3D%3D&uri=deeplink%3Adetalle_licitacion",
       "lineage": "ROOT"
     },
     {
@@ -27,10 +27,10 @@
       "status": "VALIDATING",
       "candidate": "AgnosticEngine guided-selling conversion sprint",
       "maturity": "A6",
-      "fitness": 0.5,
-      "next_gate": "Repair the withdrawn editorial model and production chunk-load failure, then verify the chat-to-recommendation-to-click/cart/analytics path before testing paid intent.",
-      "blocker": "Production reliability and end-to-end instrumentation are not yet proven.",
-      "last_updated": "2026-08-11 02:36 CEST",
+      "fitness": 0.34,
+      "next_gate": "Replace the withdrawn editorial model, eliminate the root-route EMFILE/ChunkLoadError, pass a sustained reliability control, then verify complete shopper journeys and analytics before paid-intent testing.",
+      "blocker": "Production reliability and the commercial end-to-end path are not proven; no merchant pilot before repair.",
+      "last_updated": "2026-08-11 05:36 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
       "lineage": "ROOT"
     },
@@ -40,8 +40,8 @@
       "candidate": "Traceable RoboDK Station Bootstrap Compiler",
       "maturity": "F4",
       "fitness": 0.62,
-      "next_gate": "Run the real RoboDK station bootstrap and compare generated station quality, setup time, and traceability against manual setup.",
-      "blocker": "A real RoboDK execution surface is unavailable.",
+      "next_gate": "Execute at least three generated stations in a real RoboDK environment and compare quality, setup time, omissions and traceability against manual setup.",
+      "blocker": "A real RoboDK execution surface and usable license or trial are unavailable.",
       "last_updated": "2026-08-10 00:57 CEST",
       "artifact_url": "",
       "lineage": "ROOT"
@@ -52,8 +52,8 @@
       "candidate": "No current leader — database index selection is the first execution prospect, not yet admitted",
       "maturity": "E1",
       "fitness": 0.06,
-      "next_gate": "Execute the MIT-licensed Hyrise index-selection evaluation on PostgreSQL with HypoPG and TPC-H scale factor 1; admit E2 only if the result is reproducible and bounded.",
-      "blocker": "No PostgreSQL, HypoPG, psycopg2, or container engine is available in the current execution surface.",
+      "next_gate": "Execute the public Hyrise index-selection evaluation unchanged on PostgreSQL with HypoPG and TPC-H scale factor 1; admit E2 only if reproducible and bounded.",
+      "blocker": "The required PostgreSQL, HypoPG and client dependencies are unavailable on the recorded execution surface.",
       "last_updated": "2026-08-11 05:02 CEST",
       "artifact_url": "https://github.com/hyrise/index_selection_evaluation",
       "lineage": "ROOT"
@@ -64,8 +64,8 @@
       "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer/demand evidence × AgnosticEngine A6 guided-intake capability",
       "maturity": "M2",
       "fitness": 0.22,
-      "next_gate": "After AgnosticEngine passes reliability, run a 10-case blinded judge versus a manual checklist and unmodified AgnosticEngine; require at least 95% completeness, zero invented evidence or boundary violations, and at least 40% lower median human scoping time.",
-      "blocker": "AgnosticEngine reliability remains unresolved; no labeled CAE intake corpus; no authorization for outreach, bids, pricing commitments, or regulated execution.",
+      "next_gate": "After AgnosticEngine passes reliability, run a 10-case blinded judge against a manual checklist and unmodified flow; require at least 95% completeness, zero invented evidence or boundary violations, and at least 40% lower median human scoping time.",
+      "blocker": "AgnosticEngine reliability remains unresolved and no labeled CAE intake corpus exists; no outreach, bidding, pricing or regulated-execution authorization.",
       "last_updated": "2026-08-11 05:09 CEST",
       "artifact_url": "https://github.com/jandromani/jandromani/blob/main/forgeos-live/state.json",
       "lineage": "ROOT → Revenue Hunter N6 + Asset Liquidator A6"
@@ -73,64 +73,64 @@
   ],
   "events": [
     {
-      "timestamp": "2026-08-10 12:27 CEST",
-      "lab": "Revenue Hunter",
-      "type": "VALIDATION_ADVANCED",
-      "summary": "A public municipal CAE contract strengthened the buyer and procurement path while preserving the need to verify execution evidence and economics."
-    },
-    {
-      "timestamp": "2026-08-10 13:07 CEST",
-      "lab": "Evolution Forge",
-      "type": "BENCHMARK_FALSIFICATION",
-      "summary": "A candidate was held below validation because the apparent communication gain did not yet survive displaced-compute and baseline controls."
-    },
-    {
       "timestamp": "2026-08-10 13:57 CEST",
       "lab": "Evolution Forge",
       "type": "PRIOR_ART_KILL",
-      "summary": "Prior-art review removed a novelty claim; the lab retained the falsification and did not promote a replacement without an executable judge."
+      "summary": "Prior art removed a novelty claim; no unsupported replacement was promoted."
     },
     {
       "timestamp": "2026-08-10 14:25 CEST",
       "lab": "Revenue Hunter",
       "type": "BUYER_PATH_SHARPENED",
-      "summary": "The municipal owner-side CAE offer gained a clearer access route and evidence checklist, but remained below graduation."
+      "summary": "The municipal owner-side CAE offer gained a clearer access route and evidence checklist."
     },
     {
       "timestamp": "2026-08-11 02:36 CEST",
       "lab": "Asset Liquidator",
       "type": "PRODUCTION_RELIABILITY_FALSIFICATION",
-      "summary": "AgnosticEngine remained the leader, but a withdrawn model and chunk-load failure made production reliability the binding gate."
+      "summary": "AgnosticEngine remained the leader, but a withdrawn model and chunk-load failure made reliability the binding gate."
     },
     {
       "timestamp": "2026-08-11 03:28 CEST",
       "lab": "Revenue Hunter",
       "type": "PAID_COMPARABLES_RECOVERED",
-      "summary": "Additional paid public-sector comparables strengthened demand evidence for owner-side CAE assistance across more than one buyer."
+      "summary": "Additional paid public-sector comparables strengthened owner-side CAE demand evidence across buyers."
     },
     {
       "timestamp": "2026-08-11 03:57 CEST",
       "lab": "Evolution Forge",
       "type": "DOMAIN_CLOSED_CAUSAL_NOVELTY_SCREEN",
-      "summary": "The causal-novelty branch was closed after prior art and execution constraints prevented a defensible benchmarkable discovery."
+      "summary": "The causal-novelty branch was closed after prior art and execution constraints blocked a defensible discovery."
     },
     {
       "timestamp": "2026-08-11 04:24 CEST",
       "lab": "Revenue Hunter",
       "type": "THIRD_PAID_BUYER_VALIDATING",
-      "summary": "A third paid comparable advanced the municipal CAE Owner Pack to N6 VALIDATING; execution proof, delivery economics, and regulated boundaries remain open."
+      "summary": "A third paid comparable advanced the Municipal CAE Owner Pack to N6 VALIDATING."
     },
     {
       "timestamp": "2026-08-11 05:02 CEST",
       "lab": "Evolution Forge",
       "type": "DOMAIN_SCREENED",
-      "summary": "Database index selection became the first execution prospect after earlier domains were closed, but it remains unadmitted pending a reproducible PostgreSQL/HypoPG benchmark."
+      "summary": "Database index selection became the first execution prospect but remains unadmitted pending a reproducible benchmark."
     },
     {
       "timestamp": "2026-08-11 05:09 CEST",
       "lab": "MetaForge",
       "type": "CROSSOVER_ADMITTED_M2",
-      "summary": "Revenue N6 demand evidence and Asset A6 guided intake now form a testable CAE intake-to-owner-pack crossover; no integrated result exists yet."
+      "summary": "Revenue N6 demand evidence and Asset A6 guided intake form a testable CAE intake-to-owner-pack crossover; no integrated result exists yet."
+    },
+    {
+      "timestamp": "2026-08-11 05:25 CEST",
+      "lab": "Revenue Hunter",
+      "type": "PRIMARY_ROUTES_RECOVERED",
+      "summary": "Official Teatro Real procurement routes were recovered, but primary payload, acceptance, invoice and payment evidence remain incomplete."
+    },
+    {
+      "timestamp": "2026-08-11 05:36 CEST",
+      "lab": "Asset Liquidator",
+      "type": "CONTROL_PLANE_RECONCILED",
+      "summary": "AgnosticEngine fitness was corrected to 0.34 after request-level evidence showed two HTTP 500 responses in three observed root requests; no pilot before repair."
     }
   ],
   "lineage": [
