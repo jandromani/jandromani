@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live-v1",
-  "generated_at": "2026-08-11T03:07:35+02:00",
+  "generated_at": "2026-08-11T04:11:20+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -13,12 +13,12 @@
     {
       "lab": "Revenue Hunter",
       "status": "ACTIVE",
-      "candidate": "Municipal CAE Owner Pack — first formalized workflow outcome; paid assistance comparable still missing",
+      "candidate": "Municipal CAE Owner Pack — two provisional paid calculation-assistance comparables; primary-source verification pending",
       "maturity": "N5",
-      "fitness": 0.56,
-      "next_gate": "Recover three complete paid assistance comparables, including one formalized or executed P2/P3 Owner Pack contract.",
-      "blocker": "Zero strict paid-assistance comparables; habilitation boundary and real margin remain unvalidated.",
-      "last_updated": "2026-08-10 14:25 CEST",
+      "fitness": 0.61,
+      "next_gate": "Recover primary records for the two Teatro Real awards; recover the Alcobendas supplier, exact date and amount; obtain a third independent paid award and one formalized or executed end-to-end assistance contract.",
+      "blocker": "Two provisional paid comparables share one buyer and one supplier; primary records, execution evidence, the habilitation boundary and margin remain unverified. No outreach or bidding is authorized.",
+      "last_updated": "2026-08-11 03:28 CEST",
       "artifact_url": "",
       "lineage": "ROOT"
     },
@@ -28,8 +28,8 @@
       "candidate": "AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify merchants",
       "maturity": "A6",
       "fitness": 0.5,
-      "next_gate": "Repair the withdrawn editorial-model dependency and the root-route EMFILE/ChunkLoadError; pass a repeatable reliability check and verify the core funnel end-to-end before testing paid-pilot intent.",
-      "blocker": "Production is reachable but not proven stable; the editorial-model 404, intermittent root-route resource exhaustion and independent funnel proof remain unresolved.",
+      "next_gate": "Repair the withdrawn editorial-model dependency and root-route resource exhaustion; pass repeatable reliability and end-to-end funnel checks before testing paid-pilot intent.",
+      "blocker": "Production is reachable but not proven stable; the editorial-model failure, resource exhaustion and independent funnel proof remain unresolved.",
       "last_updated": "2026-08-11 02:36 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
       "lineage": "ROOT"
@@ -40,7 +40,7 @@
       "candidate": "Traceable RoboDK Station Bootstrap Compiler",
       "maturity": "F4",
       "fitness": 0.62,
-      "next_gate": "Execute at least three real RoboDK stations and measure integrity, export quality and setup-time savings.",
+      "next_gate": "Execute at least three real RoboDK stations and measure integrity, collision and simulation checks, export quality and setup-time savings.",
       "blocker": "No accessible RoboDK runtime, container engine or usable license/trial.",
       "last_updated": "2026-08-10 00:57 CEST",
       "artifact_url": "",
@@ -49,12 +49,12 @@
     {
       "lab": "Evolution Forge",
       "status": "ACTIVE",
-      "candidate": "No current leader — budget-conditioned historical failure scoring killed on held-out data",
-      "maturity": "E2",
-      "fitness": 0.11,
-      "next_gate": "Explain project heterogeneity and preregister one causal pre-build mechanism; otherwise close the CI arena.",
-      "blocker": "No method generalizes jointly on recall and time-to-first-failure across projects and budgets.",
-      "last_updated": "2026-08-10 13:57 CEST",
+      "candidate": "No current leader — budget-aware CI prioritization closed after causal-feature novelty screen",
+      "maturity": "E1",
+      "fitness": 0.04,
+      "next_gate": "Compare three non-communicational software domains; admit exactly one only with an executable judge, public benchmark, two competitive baselines, bounded compute, clear provenance and a plausible paying user.",
+      "blocker": "No runtime blocker. The CI arena has no surviving mechanism; causal and contextual features are occupied by prior art and are not uniformly present in retained datasets.",
+      "last_updated": "2026-08-11 03:57 CEST",
       "artifact_url": "",
       "lineage": "ROOT"
     },
@@ -65,55 +65,13 @@
       "maturity": "M0",
       "fitness": 0.08,
       "next_gate": "Wait for stronger upstream validation; only form a crossover that beats its parents under a defined judge.",
-      "blocker": "No research blocker; the public state bus is current while the legacy Vercel UI remains stale.",
+      "blocker": "No research blocker. GitHub state synchronization works; the legacy Vercel cockpit remains stale pending a writable deployment surface.",
       "last_updated": "2026-08-10 02:15 CEST",
       "artifact_url": "https://github.com/jandromani/jandromani/blob/main/forgeos-live/state.json",
       "lineage": "ROOT"
     }
   ],
   "events": [
-    {
-      "timestamp": "2026-08-10 07:26 CEST",
-      "lab": "Revenue Hunter",
-      "type": "BUYER_PROXY_GATE_PASS",
-      "summary": "Five of twelve accredited delegated subjects publish early-stage opportunity signals; internal origination remains the main substitute."
-    },
-    {
-      "timestamp": "2026-08-10 08:15 CEST",
-      "lab": "Evolution Forge",
-      "type": "PRIOR_ART_KILL_AND_SATURATION_AUDIT",
-      "summary": "Token-budgeted truthful disclosure was killed by direct mechanism-design prior art; repeated message-wrapper mutations triggered a saturation audit."
-    },
-    {
-      "timestamp": "2026-08-10 08:24 CEST",
-      "lab": "Revenue Hunter",
-      "type": "MAJOR_FALSIFICATION_PIVOT",
-      "summary": "The buyer-side radar failed a blind sample and pivoted to municipality-side CAE asset recovery."
-    },
-    {
-      "timestamp": "2026-08-10 08:55 CEST",
-      "lab": "Evolution Forge",
-      "type": "MAJOR_FALSIFICATION_BRANCH_CLOSED",
-      "summary": "The M2M cognition branch closed after final substrate candidates collided with established prior art."
-    },
-    {
-      "timestamp": "2026-08-10 09:41 CEST",
-      "lab": "Revenue Hunter",
-      "type": "PRELIMINARY_OWNER_GATE_PASSED",
-      "summary": "Petrer passed the preliminary owner-side gate; exact savings and owner willingness to pay remained pending."
-    },
-    {
-      "timestamp": "2026-08-10 10:07 CEST",
-      "lab": "Evolution Forge",
-      "type": "DOMAIN_ADMITTED_JUDGE_READY",
-      "summary": "Budget-aware CI prioritization was admitted with an exact judge; no benchmark gain existed yet."
-    },
-    {
-      "timestamp": "2026-08-10 10:29 CEST",
-      "lab": "Revenue Hunter",
-      "type": "WINNING_OFFER_RECOVERED",
-      "summary": "Petrer’s winning offer and technical energy-balance requirements were recovered; the paid service gate remained open."
-    },
     {
       "timestamp": "2026-08-10 11:04 CEST",
       "lab": "Evolution Forge",
@@ -154,20 +112,32 @@
       "timestamp": "2026-08-10 14:25 CEST",
       "lab": "Revenue Hunter",
       "type": "FORMALIZED_WORKFLOW_OUTCOME",
-      "summary": "A first workflow-to-formalized municipal CAE auction outcome was verified, but strict paid-assistance comparables remain zero of three."
+      "summary": "A first municipal CAE workflow-to-formalized-auction outcome was verified; strict paid-assistance comparables still remained zero of three."
     },
     {
       "timestamp": "2026-08-11 02:36 CEST",
       "lab": "Asset Liquidator",
       "type": "PRODUCTION_RELIABILITY_FALSIFICATION",
-      "summary": "AgnosticEngine remains reachable, but root-route resource exhaustion and the editorial-model failure mean production stability is not proven; fitness fell to 0.50."
+      "summary": "AgnosticEngine remained reachable, but resource exhaustion and an editorial-model failure meant production stability was not proven; fitness fell to 0.50."
+    },
+    {
+      "timestamp": "2026-08-11 03:28 CEST",
+      "lab": "Revenue Hunter",
+      "type": "PAID_COMPARABLES_RECOVERED",
+      "summary": "Two paid technical-assistance awards exposed buyer, supplier, date and amount. The provisional gate moved to two of three; primary records and buyer diversity remain unverified."
+    },
+    {
+      "timestamp": "2026-08-11 03:57 CEST",
+      "lab": "Evolution Forge",
+      "type": "DOMAIN_CLOSED_CAUSAL_NOVELTY_SCREEN",
+      "summary": "The CI arena closed after held-out failure and causal-feature novelty screening. No leader survived; the next gate is a three-domain admission screen."
     }
   ],
   "lineage": [
-    "Revenue Hunter ROOT → Pre-CAE radar falsified → Municipal CAE Owner Pack N5",
-    "Asset Liquidator ROOT → AgnosticEngine A6 VALIDATING → production reliability gate added",
+    "Revenue Hunter ROOT → Pre-CAE radar falsified → Municipal CAE Owner Pack N5 (two of three provisional paid comparables)",
+    "Asset Liquidator ROOT → AgnosticEngine A6 VALIDATING → production reliability gate active",
     "Frontier Forge Robotics ROOT → Traceable RoboDK Station Bootstrap Compiler F4 BLOCKED",
-    "Evolution Forge ROOT → M2M branch closed → CI arena held-out kill → no leader E2",
+    "Evolution Forge ROOT → M2M branch closed → CI arena closed → no leader E1",
     "MetaForge ROOT → previous PPWR crossover retired → observe M0",
     "No active forks"
   ],
