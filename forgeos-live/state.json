@@ -1,34 +1,34 @@
 {
   "schema": "forgeos-live/v1",
-  "generated_at": "2026-08-11T06:06:32+02:00",
+  "generated_at": "2026-08-11T07:07:28+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
     "graduates": 0,
     "dead": 0,
     "validating": 2,
-    "blocked": 1
+    "blocked": 2
   },
   "labs": [
     {
       "lab": "Revenue Hunter",
       "status": "VALIDATING",
-      "candidate": "Municipal CAE Owner Pack — three paid comparables across two public buyers; regulated execution boundary remains explicit",
+      "candidate": "Municipal CAE Owner Pack — three paid comparables across two public buyers; regulated execution boundary now explicit",
       "maturity": "N6",
       "fitness": 0.68,
-      "next_gate": "Recover primary Teatro Real payloads and acceptance/invoice/payment evidence, Alcobendas completion/invoice and accredited-participant evidence, another independent executed full-scope comparable, and measured delivery economics.",
-      "blocker": "Primary execution, invoice/payment and unit-economics evidence remain incomplete; no outreach or bidding authorization.",
-      "last_updated": "2026-08-11 05:25 CEST",
+      "next_gate": "Recover the remaining primary award payload, acceptance/conformity or invoice/payment evidence for both Teatro files, Alcobendas completion and accredited-participant evidence, another independent executed comparable, and measured delivery economics.",
+      "blocker": "Award-level evidence exists, but execution, invoice/payment and unit-economics evidence remain incomplete; no outreach or bidding authorization.",
+      "last_updated": "2026-08-11 06:24 CEST",
       "artifact_url": "https://contrataciondelestado.es/wps/poc?idEvl=peDmNPg%2FYcokJPJS%2BPS9vg%3D%3D&uri=deeplink%3Adetalle_licitacion",
       "lineage": "ROOT"
     },
     {
       "lab": "Asset Liquidator",
       "status": "VALIDATING",
-      "candidate": "AgnosticEngine guided-selling conversion sprint",
+      "candidate": "AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify and WooCommerce merchants",
       "maturity": "A6",
       "fitness": 0.34,
-      "next_gate": "Replace the withdrawn editorial model, eliminate the root-route EMFILE/ChunkLoadError, pass a sustained reliability control, then verify complete shopper journeys and analytics before paid-intent testing.",
+      "next_gate": "Replace or parameterize the withdrawn editorial model, eliminate EMFILE/ChunkLoadError, pass 100 cache-busted root requests, then verify three complete shopper journeys and analytics before paid-intent testing.",
       "blocker": "Production reliability and the commercial end-to-end path are not proven; no merchant pilot before repair.",
       "last_updated": "2026-08-11 05:36 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
@@ -48,13 +48,13 @@
     },
     {
       "lab": "Evolution Forge",
-      "status": "ACTIVE",
+      "status": "BLOCKED",
       "candidate": "No current leader — database index selection is the first execution prospect, not yet admitted",
       "maturity": "E1",
       "fitness": 0.06,
-      "next_gate": "Execute the public Hyrise index-selection evaluation unchanged on PostgreSQL with HypoPG and TPC-H scale factor 1; admit E2 only if reproducible and bounded.",
-      "blocker": "The required PostgreSQL, HypoPG and client dependencies are unavailable on the recorded execution surface.",
-      "last_updated": "2026-08-11 05:02 CEST",
+      "next_gate": "Run the public Hyrise evaluation unchanged with PostgreSQL, HypoPG and TPC-H scale factor 1; admit E2 only after reproducible, bounded execution.",
+      "blocker": "PostgreSQL, HypoPG, Python database connectivity and a usable container runtime are unavailable; no benchmark claim exists.",
+      "last_updated": "2026-08-11 07:05 CEST",
       "artifact_url": "https://github.com/hyrise/index_selection_evaluation",
       "lineage": "ROOT"
     },
@@ -75,20 +75,20 @@
     {
       "timestamp": "2026-08-10 13:57 CEST",
       "lab": "Evolution Forge",
-      "type": "PRIOR_ART_KILL",
-      "summary": "Prior art removed a novelty claim; no unsupported replacement was promoted."
+      "type": "MAJOR_FALSIFICATION_HELDOUT_KILL",
+      "summary": "Held-out evaluation killed the leading protocol claim; no unsupported replacement was promoted."
     },
     {
       "timestamp": "2026-08-10 14:25 CEST",
       "lab": "Revenue Hunter",
-      "type": "BUYER_PATH_SHARPENED",
-      "summary": "The municipal owner-side CAE offer gained a clearer access route and evidence checklist."
+      "type": "FORMALIZED_WORKFLOW_OUTCOME",
+      "summary": "The municipal owner-side CAE offer gained a clearer workflow, access route and evidence checklist."
     },
     {
       "timestamp": "2026-08-11 02:36 CEST",
       "lab": "Asset Liquidator",
       "type": "PRODUCTION_RELIABILITY_FALSIFICATION",
-      "summary": "AgnosticEngine remained the leader, but a withdrawn model and chunk-load failure made reliability the binding gate."
+      "summary": "A withdrawn model and chunk-load failure made production reliability the binding gate for AgnosticEngine."
     },
     {
       "timestamp": "2026-08-11 03:28 CEST",
@@ -124,21 +124,33 @@
       "timestamp": "2026-08-11 05:25 CEST",
       "lab": "Revenue Hunter",
       "type": "PRIMARY_ROUTES_RECOVERED",
-      "summary": "Official Teatro Real procurement routes were recovered, but primary payload, acceptance, invoice and payment evidence remain incomplete."
+      "summary": "Official procurement routes were recovered, but acceptance, invoice and payment evidence remain incomplete."
     },
     {
       "timestamp": "2026-08-11 05:36 CEST",
       "lab": "Asset Liquidator",
       "type": "CONTROL_PLANE_RECONCILED",
       "summary": "AgnosticEngine fitness was corrected to 0.34 after request-level evidence showed two HTTP 500 responses in three observed root requests; no pilot before repair."
+    },
+    {
+      "timestamp": "2026-08-11 06:24 CEST",
+      "lab": "Revenue Hunter",
+      "type": "PRIMARY_AWARD_PAYLOAD_ARCHIVED",
+      "summary": "A primary award payload confirmed buyer, supplier, value and planned execution, while acceptance and payment remain unverified."
+    },
+    {
+      "timestamp": "2026-08-11 07:05 CEST",
+      "lab": "Evolution Forge",
+      "type": "EXECUTION_RUNTIME_BLOCKED",
+      "summary": "Evolution Forge moved to BLOCKED because the selected public benchmark cannot run on the available execution surface; no candidate claim was made."
     }
   ],
   "lineage": [
-    "Revenue Hunter: ROOT → earlier radar falsified → Municipal CAE Owner Pack N6 VALIDATING",
+    "Revenue Hunter: ROOT → Municipal CAE Owner Pack N6 VALIDATING",
     "Asset Liquidator: ROOT → AgnosticEngine A6 VALIDATING → production reliability gate",
     "Frontier Forge Robotics: ROOT → Traceable RoboDK Station Bootstrap Compiler F4 BLOCKED",
-    "Evolution Forge: ROOT → machine-to-machine and causal branches closed → database index-selection prospect E1",
-    "MetaForge: ROOT → prior PPWR crossover retired → CAE Intake-to-Owner-Pack Compiler M2 from Revenue N6 + Asset A6"
+    "Evolution Forge: ROOT → prior domains closed → database index-selection prospect E1 BLOCKED",
+    "MetaForge: ROOT → CAE Intake-to-Owner-Pack Compiler M2 from Revenue N6 + Asset A6"
   ],
   "safety": "Public-safe administrative state only. No credentials, private contacts, private Drive URLs, proprietary code, confidential buyer details, non-public financials, or sensitive evidence."
 }
