@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live/v1",
-  "generated_at": "2026-08-11T07:07:28+02:00",
+  "generated_at": "2026-08-11T08:14:40+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -16,10 +16,10 @@
       "candidate": "Municipal CAE Owner Pack — three paid comparables across two public buyers; regulated execution boundary now explicit",
       "maturity": "N6",
       "fitness": 0.68,
-      "next_gate": "Recover the remaining primary award payload, acceptance/conformity or invoice/payment evidence for both Teatro files, Alcobendas completion and accredited-participant evidence, another independent executed comparable, and measured delivery economics.",
-      "blocker": "Award-level evidence exists, but execution, invoice/payment and unit-economics evidence remain incomplete; no outreach or bidding authorization.",
-      "last_updated": "2026-08-11 06:24 CEST",
-      "artifact_url": "https://contrataciondelestado.es/wps/poc?idEvl=peDmNPg%2FYcokJPJS%2BPS9vg%3D%3D&uri=deeplink%3Adetalle_licitacion",
+      "next_gate": "Recover the official Paradores outcome and any annulment reason or retender; archive the remaining primary award payload; recover acceptance, invoice/payment and delivery-economics evidence; preserve the regulated-role split.",
+      "blocker": "Paradores outcome conflicts across public listings, and execution, payment and unit-economics evidence remain incomplete; no outreach or bidding authorization.",
+      "last_updated": "2026-08-11 07:25 CEST",
+      "artifact_url": "https://contrataciondelestado.es/wps/poc?idEvl=FVYX8Zg2xpSS81gZFETWmA%3D%3D&uri=deeplink%3Adetalle_licitacion",
       "lineage": "ROOT"
     },
     {
@@ -130,7 +130,7 @@
       "timestamp": "2026-08-11 05:36 CEST",
       "lab": "Asset Liquidator",
       "type": "CONTROL_PLANE_RECONCILED",
-      "summary": "AgnosticEngine fitness was corrected to 0.34 after request-level evidence showed two HTTP 500 responses in three observed root requests; no pilot before repair."
+      "summary": "AgnosticEngine fitness was corrected to 0.34 after request-level reliability evidence; no pilot before repair."
     },
     {
       "timestamp": "2026-08-11 06:24 CEST",
@@ -143,6 +143,12 @@
       "lab": "Evolution Forge",
       "type": "EXECUTION_RUNTIME_BLOCKED",
       "summary": "Evolution Forge moved to BLOCKED because the selected public benchmark cannot run on the available execution surface; no candidate claim was made."
+    },
+    {
+      "timestamp": "2026-08-11 07:25 CEST",
+      "lab": "Revenue Hunter",
+      "type": "ENTERPRISE_BUYER_SIGNAL_CONFLICT",
+      "summary": "A national public buyer budgeted a larger integrated CAE service, but conflicting status means category-scale intent only, not realized willingness to pay."
     }
   ],
   "lineage": [
