@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live/v1",
-  "generated_at": "2026-08-11T16:07:58+02:00",
+  "generated_at": "2026-08-12T03:13:24+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -13,13 +13,13 @@
     {
       "lab": "Revenue Hunter",
       "status": "VALIDATING",
-      "candidate": "Municipal CAE Owner-Pack Copilot for FEMP-framework primes — validated demand structure and a tooling/subcontract channel",
+      "candidate": "Municipal CAE Owner-Pack Copilot for FEMP-framework primes — paid buyer evidence plus a concrete tooling/subcontract channel",
       "maturity": "N6",
       "fitness": 0.68,
-      "next_gate": "Recover the official FEMP awardees and awarded economics by lot, map credible tooling or subcontract access, run a representative completeness/time judge, and continue execution and margin recovery for paid comparables.",
-      "blocker": "FEMP awardees and awarded economics are not yet accessible; supplier adoption, comparable acceptance/payment and delivery margin remain unverified; no outreach or bidding authorization.",
-      "last_updated": "2026-08-11 15:22 CEST",
-      "artifact_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?DocumentIdParam=f2cD9b6puLRoj27nb1TCkV9oxAjESeEOvSGZCWqMyMiJ762Y4My5OB86uXqVTGU8iUD2tnpRkvFZtnu82sBoRiqfQVk%2FkNJ%2F37JF1Wyigr145ClyWkoJ44mKM70IFcOu&cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D",
+      "next_gate": "Monitor the official FEMP evaluation through award, recover suppliers and awarded economics by lot, map tooling or subcontract access, then run the representative completeness and time judge.",
+      "blocker": "The framework is in evaluation; awardees and awarded economics are not yet public, supplier adoption and paid-comparable delivery margins remain unverified, and no outreach or bidding is authorized.",
+      "last_updated": "2026-08-12 02:26 CEST",
+      "artifact_url": "https://el-vinculo.com/licitacion/acuerdo-marco-para-la-prestacion-de-servicios-de-oficina-tecnica-para-el-asesora-5623556",
       "lineage": "ROOT"
     },
     {
@@ -28,9 +28,9 @@
       "candidate": "AgnosticEngine — guided-selling conversion sprint for high-consideration Shopify and WooCommerce merchants",
       "maturity": "A6",
       "fitness": 0.34,
-      "next_gate": "Replace or parameterize the withdrawn editorial model, eliminate EMFILE/ChunkLoadError, pass 100 cache-busted root requests, then verify three complete shopper journeys and analytics before paid-intent testing.",
-      "blocker": "Production reliability and the commercial end-to-end path are not proven; no merchant pilot before repair.",
-      "last_updated": "2026-08-11 05:36 CEST",
+      "next_gate": "Parameterize the editorial workflow with the zero-cost model router and validate ten outputs; separately eliminate the root chunk-load defect, pass 100 cache-busted requests, and verify three shopper journeys before paid-intent testing.",
+      "blocker": "A fresh production HTTP 500 confirms the independent root reliability defect remains active; the editorial repair is not deployed and the commercial end-to-end path is unproven.",
+      "last_updated": "2026-08-12 02:42 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
       "lineage": "ROOT"
     },
@@ -61,10 +61,10 @@
     {
       "lab": "MetaForge",
       "status": "ACTIVE",
-      "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer/channel evidence × AgnosticEngine A6 guided-intake capability",
+      "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer evidence × AgnosticEngine A6 guided-intake capability",
       "maturity": "M2",
       "fitness": 0.22,
-      "next_gate": "After AgnosticEngine passes reliability, run a 10-case blinded judge against a manual checklist and unmodified flow; require at least 95% completeness, zero invented evidence or boundary violations, and at least 40% lower median human scoping time.",
+      "next_gate": "After AgnosticEngine passes reliability, run a ten-case blinded judge against a manual checklist and unmodified flow; require at least 95% completeness, zero invented evidence or boundary violations, and at least 40% lower median human scoping time.",
       "blocker": "AgnosticEngine reliability remains unresolved and no labeled CAE intake corpus exists; no outreach, bidding, pricing or regulated-execution authorization.",
       "last_updated": "2026-08-11 05:09 CEST",
       "artifact_url": "https://github.com/jandromani/jandromani/blob/main/forgeos-live/state.json",
@@ -73,34 +73,10 @@
   ],
   "events": [
     {
-      "timestamp": "2026-08-10 13:57 CEST",
-      "lab": "Evolution Forge",
-      "type": "MAJOR_FALSIFICATION_HELDOUT_KILL",
-      "summary": "Held-out evaluation killed the leading protocol claim; no unsupported replacement was promoted."
-    },
-    {
-      "timestamp": "2026-08-10 14:25 CEST",
-      "lab": "Revenue Hunter",
-      "type": "FORMALIZED_WORKFLOW_OUTCOME",
-      "summary": "The municipal owner-side CAE offer gained a clearer workflow, access route and evidence checklist."
-    },
-    {
-      "timestamp": "2026-08-11 02:36 CEST",
-      "lab": "Asset Liquidator",
-      "type": "PRODUCTION_RELIABILITY_FALSIFICATION",
-      "summary": "A withdrawn model and chunk-load failure made production reliability the binding gate for AgnosticEngine."
-    },
-    {
-      "timestamp": "2026-08-11 03:28 CEST",
-      "lab": "Revenue Hunter",
-      "type": "PAID_COMPARABLES_RECOVERED",
-      "summary": "Additional paid public-sector comparables strengthened owner-side CAE demand evidence across buyers."
-    },
-    {
       "timestamp": "2026-08-11 03:57 CEST",
       "lab": "Evolution Forge",
       "type": "DOMAIN_CLOSED_CAUSAL_NOVELTY_SCREEN",
-      "summary": "The causal-novelty branch was closed after prior art and execution constraints blocked a defensible discovery."
+      "summary": "The causal-novelty branch closed after prior art and execution constraints blocked a defensible discovery."
     },
     {
       "timestamp": "2026-08-11 04:24 CEST",
@@ -148,18 +124,30 @@
       "timestamp": "2026-08-11 07:25 CEST",
       "lab": "Revenue Hunter",
       "type": "ENTERPRISE_BUYER_SIGNAL_CONFLICT",
-      "summary": "A national public buyer budgeted a larger integrated CAE service, but conflicting status means category-scale intent only, not realized willingness to pay."
+      "summary": "A national public buyer budgeted a larger integrated service, but conflicting status means category-scale intent only, not realized willingness to pay."
     },
     {
       "timestamp": "2026-08-11 15:22 CEST",
       "lab": "Revenue Hunter",
       "type": "CHANNEL_AND_ECONOMICS_VALIDATED",
-      "summary": "A national framework validated the three-phase municipal CAE workflow and fixed-plus-variable economics; the capturable route shifted to tooling or subcontracting for eventual prime suppliers."
+      "summary": "A national framework validated the three-phase municipal workflow and fixed-plus-variable economics; the capturable route shifted to tooling or subcontracting for eventual prime suppliers."
+    },
+    {
+      "timestamp": "2026-08-12 02:26 CEST",
+      "lab": "Revenue Hunter",
+      "type": "PROCUREMENT_ENTERED_EVALUATION",
+      "summary": "The national framework progressed from bidding to evaluation; no awardee or awarded economics are public, so N6 and the supplier-channel gate remain unchanged."
+    },
+    {
+      "timestamp": "2026-08-12 02:42 CEST",
+      "lab": "Asset Liquidator",
+      "type": "REPAIR_PATH_NARROWED",
+      "summary": "The zero-cost model router removes fixed-slug retirement risk, but a fresh root HTTP 500 confirms the independent production reliability defect remains."
     }
   ],
   "lineage": [
     "Revenue Hunter: ROOT → Municipal CAE Owner-Pack Copilot for FEMP-framework primes N6 VALIDATING",
-    "Asset Liquidator: ROOT → AgnosticEngine A6 VALIDATING → production reliability gate",
+    "Asset Liquidator: ROOT → AgnosticEngine A6 VALIDATING → production reliability and repair gate",
     "Frontier Forge Robotics: ROOT → Traceable RoboDK Station Bootstrap Compiler F4 BLOCKED",
     "Evolution Forge: ROOT → prior domains closed → database index-selection prospect E1 BLOCKED",
     "MetaForge: ROOT → CAE Intake-to-Owner-Pack Compiler M2 from Revenue N6 + Asset A6"
