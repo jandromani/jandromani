@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live/v1",
-  "generated_at": "2026-08-12T03:13:24+02:00",
+  "generated_at": "2026-08-13T06:05:57+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -30,7 +30,7 @@
       "fitness": 0.34,
       "next_gate": "Parameterize the editorial workflow with the zero-cost model router and validate ten outputs; separately eliminate the root chunk-load defect, pass 100 cache-busted requests, and verify three shopper journeys before paid-intent testing.",
       "blocker": "A fresh production HTTP 500 confirms the independent root reliability defect remains active; the editorial repair is not deployed and the commercial end-to-end path is unproven.",
-      "last_updated": "2026-08-12 02:42 CEST",
+      "last_updated": "2026-08-12 04:38 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
       "lineage": "ROOT"
     },
@@ -143,6 +143,12 @@
       "lab": "Asset Liquidator",
       "type": "REPAIR_PATH_NARROWED",
       "summary": "The zero-cost model router removes fixed-slug retirement risk, but a fresh root HTTP 500 confirms the independent production reliability defect remains."
+    },
+    {
+      "timestamp": "2026-08-12 04:38 CEST",
+      "lab": "Asset Liquidator",
+      "type": "ROOT_500_REPRODUCED",
+      "summary": "A direct production-root probe returned HTTP 500 and fresh telemetry again identified the existing EMFILE/ChunkLoadError defect; the repair-first gate and pilot hold remain unchanged."
     }
   ],
   "lineage": [
