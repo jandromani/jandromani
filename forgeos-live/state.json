@@ -1,6 +1,6 @@
 {
   "schema": "forgeos-live/v1",
-  "generated_at": "2026-08-13T06:05:57+02:00",
+  "generated_at": "2026-08-20T09:07:34+02:00",
   "system": {
     "status": "STATE_LIVE_UI_STALE",
     "labs": 5,
@@ -29,8 +29,8 @@
       "maturity": "A6",
       "fitness": 0.34,
       "next_gate": "Parameterize the editorial workflow with the zero-cost model router and validate ten outputs; separately eliminate the root chunk-load defect, pass 100 cache-busted requests, and verify three shopper journeys before paid-intent testing.",
-      "blocker": "A fresh production HTTP 500 confirms the independent root reliability defect remains active; the editorial repair is not deployed and the commercial end-to-end path is unproven.",
-      "last_updated": "2026-08-12 04:38 CEST",
+      "blocker": "Both production defects were freshly reproduced on 20 August: the root reliability failure and the editorial model 404. No newer deployment exists, and the commercial end-to-end path remains unproven.",
+      "last_updated": "2026-08-20 08:37 CEST",
       "artifact_url": "https://agnosticengine.vercel.app",
       "lineage": "ROOT"
     },
@@ -61,7 +61,7 @@
     {
       "lab": "MetaForge",
       "status": "ACTIVE",
-      "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer evidence × AgnosticEngine A6 guided-intake capability",
+      "candidate": "CAE Intake-to-Owner-Pack Compiler — Revenue N6 buyer/demand evidence × AgnosticEngine A6 guided-intake capability",
       "maturity": "M2",
       "fitness": 0.22,
       "next_gate": "After AgnosticEngine passes reliability, run a ten-case blinded judge against a manual checklist and unmodified flow; require at least 95% completeness, zero invented evidence or boundary violations, and at least 40% lower median human scoping time.",
@@ -73,82 +73,94 @@
   ],
   "events": [
     {
+      "timestamp": "2026-08-11 03:28 CEST",
+      "lab": "Revenue Hunter",
+      "type": "PAID_COMPARABLES_RECOVERED",
+      "summary": "Two Teatro Real technical-assistance awards expose complete buyer, supplier, date and paid amount: €4,000 and €4,900 ex VAT. Gate moves provisionally to 2/3; primary payloads and buyer/supplier diversity remain unverified."
+    },
+    {
       "timestamp": "2026-08-11 03:57 CEST",
       "lab": "Evolution Forge",
       "type": "DOMAIN_CLOSED_CAUSAL_NOVELTY_SCREEN",
-      "summary": "The causal-novelty branch closed after prior art and execution constraints blocked a defensible discovery."
+      "summary": "The CI arena closed after held-out failure and causal-feature novelty screening: COLEMAN/CONSTANTINE already covers the plausible contextual variables, while retained datasets lack a uniform current-change-to-test signal. No leader; next gate is a three-domain admission screen."
     },
     {
       "timestamp": "2026-08-11 04:24 CEST",
       "lab": "Revenue Hunter",
       "type": "THIRD_PAID_BUYER_VALIDATING",
-      "summary": "A third paid comparable advanced the Municipal CAE Owner Pack to N6 VALIDATING."
+      "summary": "Alcobendas's official decree awards a €6,534 VAT-included CAE advisory/emission contract to ENERGON. Paid-comparable gate reaches 3/3 across two buyers; MITECO's current delegated-subject list does not include ENERGON, so regulated execution must be separated or partnered."
     },
     {
       "timestamp": "2026-08-11 05:02 CEST",
       "lab": "Evolution Forge",
       "type": "DOMAIN_SCREENED",
-      "summary": "Database index selection became the first execution prospect but remains unadmitted pending a reproducible benchmark."
+      "summary": "Exactly three non-communication domains screened. Index selection ranks first but remains unadmitted until its public PostgreSQL/HypoPG judge executes; solver selection held in reserve; compiler phase ordering rejected."
     },
     {
       "timestamp": "2026-08-11 05:09 CEST",
       "lab": "MetaForge",
       "type": "CROSSOVER_ADMITTED_M2",
-      "summary": "Revenue N6 demand evidence and Asset A6 guided intake form a testable CAE intake-to-owner-pack crossover; no integrated result exists yet."
+      "summary": "Revenue N6 paid-category evidence and Asset A6 guided-intake capability now form a testable crossover. A ten-case judge requires ≥95% completeness, zero invented evidence or regulated-boundary violations, and ≥40% lower median scoping time; no integrated result yet."
     },
     {
       "timestamp": "2026-08-11 05:25 CEST",
       "lab": "Revenue Hunter",
       "type": "PRIMARY_ROUTES_RECOVERED",
-      "summary": "Official procurement routes were recovered, but acceptance, invoice and payment evidence remain incomplete."
+      "summary": "Official PLACSP deeplinks were recovered for Teatro Real 26000777 and 26000794. A secondary table marks 26000794 finalizado on 30 Jun 2026, but no primary payload, acceptance, invoice or payment evidence was recovered; N6 remains unchanged."
     },
     {
       "timestamp": "2026-08-11 05:36 CEST",
       "lab": "Asset Liquidator",
       "type": "CONTROL_PLANE_RECONCILED",
-      "summary": "AgnosticEngine fitness was corrected to 0.34 after request-level reliability evidence; no pilot before repair."
+      "summary": "Registry reconciled to the stronger request-level reliability falsification already recorded in CURRENT: two of three root responses were HTTP 500 from EMFILE/ChunkLoadError; 21 denotes grouped stack occurrences, not independent requests. A6 retained, fitness 0.34; no pilot before repair."
     },
     {
       "timestamp": "2026-08-11 06:24 CEST",
       "lab": "Revenue Hunter",
       "type": "PRIMARY_AWARD_PAYLOAD_ARCHIVED",
-      "summary": "A primary award payload confirmed buyer, supplier, value and planned execution, while acceptance and payment remain unverified."
+      "summary": "Official PLACSP award payload for Teatro Real 26000794 was archived, confirming SINCEO2, EUR 4,000 ex VAT and planned June execution; acceptance, invoice and payment remain unproven."
     },
     {
       "timestamp": "2026-08-11 07:05 CEST",
       "lab": "Evolution Forge",
       "type": "EXECUTION_RUNTIME_BLOCKED",
-      "summary": "Evolution Forge moved to BLOCKED because the selected public benchmark cannot run on the available execution surface; no candidate claim was made."
+      "summary": "The public PostgreSQL/HypoPG index-selection judge cannot execute because this runtime lacks PostgreSQL, HypoPG, psycopg2 and container engines. No benchmark or candidate claim was produced."
     },
     {
       "timestamp": "2026-08-11 07:25 CEST",
       "lab": "Revenue Hunter",
       "type": "ENTERPRISE_BUYER_SIGNAL_CONFLICT",
-      "summary": "A national public buyer budgeted a larger integrated service, but conflicting status means category-scale intent only, not realized willingness to pay."
+      "summary": "Paradores budgeted EUR 57,100/year (EUR 285,500 maximum estimated value) for an integral nationwide CAE service, but public mirrors conflict between annulled and pending/published. Counted as buyer/category-scale intent, not realized WTP; official outcome is now a gate."
     },
     {
       "timestamp": "2026-08-11 15:22 CEST",
       "lab": "Revenue Hunter",
       "type": "CHANNEL_AND_ECONOMICS_VALIDATED",
-      "summary": "A national framework validated the three-phase municipal workflow and fixed-plus-variable economics; the capturable route shifted to tooling or subcontracting for eventual prime suppliers."
+      "summary": "A four-year national FEMP framework validates the three-phase municipal CAE Owner Pack and fixed-plus-variable economics; prime-team requirements shift the capturable route to tooling or subcontracting for eventual awardees. No awardee or pilot yet."
     },
     {
       "timestamp": "2026-08-12 02:26 CEST",
       "lab": "Revenue Hunter",
       "type": "PROCUREMENT_ENTERED_EVALUATION",
-      "summary": "The national framework progressed from bidding to evaluation; no awardee or awarded economics are public, so N6 and the supplier-channel gate remain unchanged."
+      "summary": "FEMP CC.-02/2026 progressed from bidding to evaluation after the 15 Jul deadline. No awardee or awarded economics are public; N6/0.68 and the supplier-channel gate are unchanged."
     },
     {
       "timestamp": "2026-08-12 02:42 CEST",
       "lab": "Asset Liquidator",
       "type": "REPAIR_PATH_NARROWED",
-      "summary": "The zero-cost model router removes fixed-slug retirement risk, but a fresh root HTTP 500 confirms the independent production reliability defect remains."
+      "summary": "Official openrouter/free removes fixed-slug retirement risk, but a fresh root HTTP 500 confirms independent EMFILE remains; no deployment or merchant pilot yet."
     },
     {
       "timestamp": "2026-08-12 04:38 CEST",
       "lab": "Asset Liquidator",
       "type": "ROOT_500_REPRODUCED",
-      "summary": "A direct production-root probe returned HTTP 500 and fresh telemetry again identified the existing EMFILE/ChunkLoadError defect; the repair-first gate and pilot hold remain unchanged."
+      "summary": "A direct production-root probe returned HTTP 500 and fresh telemetry again identified EMFILE/ChunkLoadError on the current READY deployment. Repair-first gate and pilot hold remain unchanged."
+    },
+    {
+      "timestamp": "2026-08-20 08:37 CEST",
+      "lab": "Asset Liquidator",
+      "type": "MAJOR_FALSIFICATION",
+      "summary": "Direct root 500 and editorial model 404 both freshly recurred on the unchanged production deployment; repair-first gate holds and merchant pilot remains unsafe."
     }
   ],
   "lineage": [
