@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/evidence-press-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/evidence-press-light.svg">
-  <img src="./assets/evidence-press-dark.svg" width="100%" alt="The Evidence Press, an original isometric machine for staged agentic engineering: intake, context, specification, agent execution, verification and evidence. Illustrative model, not production telemetry.">
-</picture>
+![Alejandro Baratas — AI Tech Lead · Agentic engineering · Knowledge systems](./assets/abgn-banner-v5-dark.svg)
 
 # Alejandro Baratas
 
@@ -12,9 +8,15 @@ I build the systems **around AI**: context, specifications, agents, controlled e
 
 My path: **GIS → enterprise Java / distributed platforms → AI technical leadership.** Based in Madrid.
 
-[Portfolio](https://alejandrobgn.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/alejandro-bgn/) · [Email](mailto:alejandrobgn@gmail.com)
+[Portfolio](https://alejandrobgn.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/alejandro-bgn/) · [Email](mailto:alejandrobgn@gmail.com) · [Light banner](./assets/abgn-banner-v5-light.svg)
 
 ## 01 / The Evidence Press — how I think
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/evidence-press-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/evidence-press-light.svg">
+  <img src="./assets/evidence-press-dark.svg" width="100%" alt="The Evidence Press, an original isometric machine for staged agentic engineering: intake, context, specification, agent execution, verification and evidence. Illustrative model, not production telemetry.">
+</picture>
 
 The isometric machine above is a **six-stage engineering metaphor**, not a client system or a telemetry dashboard. One workpiece moves from an incoming request to a reviewable result. The gates can reject it.
 
@@ -60,25 +62,17 @@ The isometric machine above is a **six-stage engineering metaphor**, not a clien
 
 ## 02 / Career Gauge — how I got here
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/career-gauge-dark-safe.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/career-gauge-light-safe.svg">
-  <img src="./assets/career-gauge-light-safe.svg" alt="Mechanical dial gauge with seven career stages on a graduated rail. The gauge represents time in roles, not performance." width="100%">
-</picture>
+![Career Gauge: seven-stage mechanical career measurement instrument](./assets/career-gauge-v5-dark.svg)
 
 <sub>Fig. 02 — The dial gauge measures the career chapters shown in a historical snapshot. Each block represents a role; its relative height encodes time spent in that chapter, not performance or salary. This is not a live clock.</sub>
 
 **Seven chapters:** Esri España → Repsol / Accenture → Grupo AVALON → Hewlett Packard Enterprise → NTT DATA → Ayesa → knowmad mood.
 
-[**Inspect the career timeline →**](https://alejandrobgn.vercel.app/experience) · [**Open full-size figure →**](./assets/career-gauge-dark-safe.svg) · [**Interpret the gauge →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-02--career-gauge)
+[**Inspect the career timeline →**](https://alejandrobgn.vercel.app/experience) · [**Open full-size figure →**](./assets/career-gauge-v5-dark.svg) · [**Interpret the gauge →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-02--career-gauge) · [Light SVG](./assets/career-gauge-v5-light.svg)
 
 ## 03 / Evolution Catalog — how I experiment
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/evolution-catalog-dark-safe.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/evolution-catalog-light-safe.svg">
-  <img src="./assets/evolution-catalog-light-safe.svg" alt="Four-drawer card cabinet for the 2023–2026 research archive; the drawer represents a year and each card is one archival record, not a product." width="85%">
-</picture>
+![Evolution Catalog: four-drawer isometric research card archive](./assets/evolution-catalog-v5-dark.svg)
 
 <sub>Fig. 03 — Four drawers = four years; each card is a research record. This is a preserved July 2026 archive snapshot, not a count of shipped applications.</sub>
 
@@ -88,7 +82,7 @@ The isometric machine above is a **six-stage engineering metaphor**, not a clien
 
 **184 archived artefacts:** 133 labelled confirmed, 51 reconstructed from memory in the original archive. The distinction matters: an artefact can be an exploration, a document or an experiment; it is not necessarily a finished system.
 
-[**Explore the evolution timeline →**](https://alejandrobgn.vercel.app/evolution) · [**Open full-size figure →**](./assets/evolution-catalog-dark-safe.svg) · [**What do the drawers mean? →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-03--evolution-catalog)
+[**Explore the evolution timeline →**](https://alejandrobgn.vercel.app/evolution) · [**Open full-size figure →**](./assets/evolution-catalog-v5-dark.svg) · [**What do the drawers mean? →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-03--evolution-catalog) · [Light SVG](./assets/evolution-catalog-v5-light.svg)
 
 ---
 
