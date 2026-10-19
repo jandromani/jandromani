@@ -99,10 +99,10 @@ function render(){
  document.getElementById('back').disabled=at===0;
  document.getElementById('failure').textContent=failed?'Restore passing gates':'Simulate gate rejection';
 }
-document.getElementById('next').onclick=()=>{if(at<5&&!(failed&&at===4)){at++;render()}};
-document.getElementById('back').onclick=()=>{if(at>0){at--;render()}};
-document.getElementById('reset').onclick=()=>{at=0;failed=false;render()};
-document.getElementById('failure').onclick=()=>{failed=!failed;if(failed)at=4;render()};
+document.getElementById('next').onclick=()=>{if(at<5&&!(failed&&at===4)){at++;inspectStation(at)}};
+document.getElementById('back').onclick=()=>{if(at>0){at--;inspectStation(at)}};
+document.getElementById('reset').onclick=()=>{at=0;failed=false;inspectStation(0)};
+document.getElementById('failure').onclick=()=>{failed=!failed;if(failed)at=4;inspectStation(at)};
 window.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('back').click();if(e.key==='r'||e.key==='R')document.getElementById('reset').click()});
 render();
 
