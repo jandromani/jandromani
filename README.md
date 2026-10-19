@@ -37,17 +37,17 @@ The isometric machine above is a **six-stage engineering metaphor**, not a clien
 
 ## 02 / Career Gauge — how I got here
 
-![Career Gauge: seven-stage mechanical career measurement instrument](./assets/career-gauge-v5-dark.svg)
+![Career Gauge: seven-stage mechanical career measurement instrument](./assets/career-gauge-v6-dark.svg)
 
 <sub>Fig. 02 — The dial gauge measures the career chapters shown in a historical snapshot. Each block represents a role; its relative height encodes time spent in that chapter, not performance or salary. This is not a live clock.</sub>
 
 **Seven chapters:** Esri España → Repsol / Accenture → Grupo AVALON → Hewlett Packard Enterprise → NTT DATA → Ayesa → knowmad mood.
 
-[**Inspect the career timeline →**](https://alejandrobgn.vercel.app/experience) · [**Open full-size figure →**](./assets/career-gauge-v5-dark.svg) · [**Interpret the gauge →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-02--career-gauge) · [Light SVG](./assets/career-gauge-v5-light.svg)
+[**Inspect the career timeline →**](https://alejandrobgn.vercel.app/experience) · [**Open full-size figure →**](./assets/career-gauge-v6-dark.svg) · [**Interpret the gauge →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-02--career-gauge) · [Light SVG](./assets/career-gauge-v6-light.svg)
 
 ## 03 / Evolution Catalog — how I experiment
 
-![Evolution Catalog: four-drawer isometric research card archive](./assets/evolution-catalog-v5-dark.svg)
+![Evolution Catalog: four-drawer isometric research card archive](./assets/evolution-catalog-v6-dark.svg)
 
 <sub>Fig. 03 — Four drawers = four years; each card is a research record. This is a preserved July 2026 archive snapshot, not a count of shipped applications.</sub>
 
@@ -57,7 +57,7 @@ The isometric machine above is a **six-stage engineering metaphor**, not a clien
 
 **184 archived artefacts:** 133 labelled confirmed, 51 reconstructed from memory in the original archive. The distinction matters: an artefact can be an exploration, a document or an experiment; it is not necessarily a finished system.
 
-[**Explore the evolution timeline →**](https://alejandrobgn.vercel.app/evolution) · [**Open full-size figure →**](./assets/evolution-catalog-v5-dark.svg) · [**What do the drawers mean? →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-03--evolution-catalog) · [Light SVG](./assets/evolution-catalog-v5-light.svg)
+[**Explore the evolution timeline →**](https://alejandrobgn.vercel.app/evolution) · [**Open full-size figure →**](./assets/evolution-catalog-v6-dark.svg) · [**What do the drawers mean? →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-03--evolution-catalog) · [Light SVG](./assets/evolution-catalog-v6-light.svg)
 
 ---
 
