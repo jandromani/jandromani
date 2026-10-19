@@ -35,31 +35,6 @@ The isometric machine above is a **six-stage engineering metaphor**, not a clien
 
 ---
 
-## What I build
-
-**AI-enabled engineering** — Adopt AI in real software delivery: project knowledge, specifications, code changes, reviews and traceable results.
-
-**Agentic systems & platforms** — Orchestration, state, permissions, integration, evaluation, observability and governance.
-
-**Knowledge-first modernisation** — Source-linked understanding of complex legacy repositories, canonical models, dependency graphs and controlled transformation.
-
-**Applied R&D & communication** — Public experiments, interactive technical objects, original editorial projects and transparent evidence boundaries.
-
-## Selected public work
-
-| Repository | What you can actually inspect |
-|---|---|
-| [**alejandrobgn**](https://github.com/jandromani/alejandrobgn) | Portfolio source, case studies, interactive experiments and technical writing |
-| [**A2A / Agentic Platform**](https://github.com/jandromani/A2A) | Agent capabilities, tool integrations, scoped execution, permissions and human approvals |
-| [**Fabrik-Codek**](https://github.com/jandromani/Fabrik-Codek) | Local knowledge graph, RAG, adaptive retrieval and task routing |
-| [**LLMTRACE**](https://github.com/jandromani/llmtrace) | Small Python tracing package: sessions, cost and errors · [PyPI](https://pypi.org/project/llmtrace/) |
-| [**Intelligence Ahead**](https://github.com/jandromani/IntelligenceAhead) | Independent AI publication, [five issues](https://intelligence-ahead.vercel.app/) and [Mateo y el Algoritmo](https://intelligence-ahead.vercel.app/mateo) |
-| [**THE ARK**](https://github.com/jandromani/endoftheworld) | Offline-first knowledge, local AI, maps and resilient computing research |
-
-*These repositories do not all have the same maturity: public source, demonstrator, research and production are deliberately different categories.*
-
----
-
 ## 02 / Career Gauge — how I got here
 
 ![Career Gauge: seven-stage mechanical career measurement instrument](./assets/career-gauge-v5-dark.svg)
@@ -83,6 +58,31 @@ The isometric machine above is a **six-stage engineering metaphor**, not a clien
 **184 archived artefacts:** 133 labelled confirmed, 51 reconstructed from memory in the original archive. The distinction matters: an artefact can be an exploration, a document or an experiment; it is not necessarily a finished system.
 
 [**Explore the evolution timeline →**](https://alejandrobgn.vercel.app/evolution) · [**Open full-size figure →**](./assets/evolution-catalog-v5-dark.svg) · [**What do the drawers mean? →**](./docs/ANATOMY-FIELD-GUIDE.md#figure-03--evolution-catalog) · [Light SVG](./assets/evolution-catalog-v5-light.svg)
+
+---
+
+## What I build
+
+**AI-enabled engineering** — Adopt AI in real software delivery: project knowledge, specifications, code changes, reviews and traceable results.
+
+**Agentic systems & platforms** — Orchestration, state, permissions, integration, evaluation, observability and governance.
+
+**Knowledge-first modernisation** — Source-linked understanding of complex legacy repositories, canonical models, dependency graphs and controlled transformation.
+
+**Applied R&D & communication** — Public experiments, interactive technical objects, original editorial projects and transparent evidence boundaries.
+
+## Selected public work
+
+| Repository | What you can actually inspect |
+|---|---|
+| [**alejandrobgn**](https://github.com/jandromani/alejandrobgn) | Portfolio source, case studies, interactive experiments and technical writing |
+| [**A2A / Agentic Platform**](https://github.com/jandromani/A2A) | Agent capabilities, tool integrations, scoped execution, permissions and human approvals |
+| [**Fabrik-Codek**](https://github.com/jandromani/Fabrik-Codek) | Local knowledge graph, RAG, adaptive retrieval and task routing |
+| [**LLMTRACE**](https://github.com/jandromani/llmtrace) | Small Python tracing package: sessions, cost and errors · [PyPI](https://pypi.org/project/llmtrace/) |
+| [**Intelligence Ahead**](https://github.com/jandromani/IntelligenceAhead) | Independent AI publication, [five issues](https://intelligence-ahead.vercel.app/) and [Mateo y el Algoritmo](https://intelligence-ahead.vercel.app/mateo) |
+| [**THE ARK**](https://github.com/jandromani/endoftheworld) | Offline-first knowledge, local AI, maps and resilient computing research |
+
+*These repositories do not all have the same maturity: public source, demonstrator, research and production are deliberately different categories.*
 
 ---
 
