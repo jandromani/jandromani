@@ -8,7 +8,7 @@ I turn complex engineering environments into **operable AI workflows**: shared c
 
 **11+ years in engineering** · GIS → enterprise Java / distributed systems → AI technical leadership · Madrid, Spain
 
-[**Portfolio**](https://alejandrobgn.vercel.app/) · [**Experience**](https://alejandrobgn.vercel.app/experience) · [**LinkedIn**](https://www.linkedin.com/in/alejandro-bgn/) · [**Email**](mailto:alejandrobgn@gmail.com)
+[**Portfolio**](https://alejandrobgn.vercel.app/) · [**CV · PDF**](https://alejandrobgn.vercel.app/Alejandro-Baratas-CV.pdf) · [**Experience**](https://alejandrobgn.vercel.app/experience) · [**LinkedIn**](https://www.linkedin.com/in/alejandro-bgn/) · [**Email**](mailto:alejandrobgn@gmail.com)
 
 ## Selected enterprise work
 
@@ -25,11 +25,10 @@ Designed a **corpus-first, deterministic modernization approach**, connecting so
 | Inspect | What it demonstrates |
 |:--|:--|
 | [**A2A · Agentic Platform**](https://github.com/jandromani/A2A) | Runnable platform architecture with agent orchestration, scoped tools and human approval paths; configuration-dependent integrations. |
-| [**LLMTRACE**](https://github.com/jandromani/llmtrace) · [PyPI](https://pypi.org/project/llmtrace/) | Open-source Python package for local LLM tracing, sessions, tokens and errors. |
 | [**AI Systems Portfolio**](https://github.com/jandromani/alejandrobgn) | Source for this portfolio, detailed system write-ups and research archive. |
 | [**Intelligence Ahead**](https://github.com/jandromani/IntelligenceAhead) | Five published AI magazine issues and the visual book [*Mateo y el Algoritmo*](https://intelligence-ahead.vercel.app/mateo). |
 
-**Also exploring:** [Fabrik-Codek](https://github.com/jandromani/Fabrik-Codek) · [THE ARK](https://github.com/jandromani/endoftheworld). Research and executable prototypes are not represented as certified production deployments.
+**Also exploring:** [Fabrik-Codek](https://github.com/jandromani/Fabrik-Codek) (fork) · [LLMTRACE](https://github.com/jandromani/llmtrace) (early tracing prototype; PyPI release 0.1.4 has outdated metadata) · [THE ARK](https://github.com/jandromani/endoftheworld). Research and executable prototypes are not represented as certified production deployments.
 
 ---
 
